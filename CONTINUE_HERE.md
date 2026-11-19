@@ -11,12 +11,16 @@
 
 ## 확인 완료
 
-- Node 24.3.0, Python 3.13.5, ffmpeg/ffprobe, Claude·Codex CLI가 설치되어 있다. CLI 로그인 여부는 이 기록에서 검증하지 않았다.
+- Node 24.3.0, Python 3.13.5, ffmpeg/ffprobe, Claude·Codex CLI가 설치되어 있다.
+- Codex는 `codex login status`로 로그인 확인. Claude는 `claude auth status --json` 결과 미로그인이다. Claude 사용 전 사용자가 `claude auth login`을 실행해야 한다. 다른 PC에서는 각 PC의 로그인 상태를 다시 확인한다.
 - 앱 `npm ci`, `npm test`: 빌드 성공, 테스트 28개 통과.
 - `demo-chim`에서 CLI `summary` 실행과 `compare.js --self-test` 통과.
 - VS Code 1.131.0에서 앱 통합 테스트 통과: 영상 메타데이터·`canplay`, 실제 프레임 진행과 클립 전환, 대본 탐색, 수동 편집·되돌리기, 버전 비교 확인.
 - 이 VS Code에서는 WebM의 demux 오류 후 MP4 호환 프록시로 전환했다. 전환 후 640×360 재생과 프레임 진행을 확인했다. 모든 환경에서 WebM이 실패한다는 뜻은 아니다.
+- 앱 커밋 `ec7efdc`: 새 checkout에서도 VSIX 출력 폴더를 자동 준비한다. `dist/cutline.vsix` 생성 성공.
+- 앱 커밋 `da231da`: 통합 테스트의 이전 PC 전용 `D:` 경로를 제거했다. Windows의 일반 VS Code 설치 경로를 자동 탐색하고, 없으면 테스트 도구가 내려받는다. `CUTLINE_VSCODE`로 명시할 수도 있다. 설정 없이 `npm run test:integration` 재실행 통과.
 - 내부 자료 루트 `.venv`에 yt-dlp와 numpy 설치 완료. 다른 PC에서는 가상환경을 다시 만든다.
+- `app/dist/Cutline-win-x64.zip` 생성 및 독립 압축 해제 확인. ZIP 안에 실행 파일과 설치된 확장이 있고 침착맨 프로젝트 경로·대표적인 인증 파일명은 없음을 확인했다. 실제 패키지의 재생 검증은 아래 최종 기록을 확인한다.
 
 ## 진행 중 — 완료로 간주하지 말 것
 
