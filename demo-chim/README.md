@@ -15,6 +15,28 @@
 원본: https://www.youtube.com/watch?v=wnXAkjgVELc (침착맨 게임 풀버전)  
 사람 편집: https://www.youtube.com/watch?v=GVHagGsmLck (침착맨 플러스)
 
+## 새 PC에서 복원하기 (Windows PowerShell)
+
+같은 상위 폴더에 `cutline`과 `cutline-internal`을 체크아웃하고, 앱 저장소 `cutline`에서 `npm ci`, `npm run build`를 실행합니다. 아래 명령은 **내부 저장소 `cutline-internal`의 루트**에서 실행합니다. 다운로드에는 PATH에 등록한 Node.js와 ffmpeg/ffprobe가 필요합니다.
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install yt-dlp
+.\demo-chim\download.ps1 -DryRun
+.\demo-chim\download.ps1
+Set-Location demo-chim
+node tools/vidcli.js summary
+```
+
+`-DryRun`은 두 공개 영상 주소와 로컬 대상 경로, 기존 파일 유지 여부를 표시합니다. 실제 실행은 누락된 MP4만 복원합니다. 다른 Python 환경을 사용하려면 `download.ps1 -Python 'C:\tools\venv\Scripts\python.exe'`처럼 지정하세요. 현재 내려받을 수 있는 스트림에 따라 해상도와 크기는 달라질 수 있습니다.
+
+CLI 래퍼는 현재 PowerShell의 `$env:CUTLINE_CLI_PATH`, 데모 폴더의 `.cutline/cli-path.txt`, 형제 저장소의 `cutline/out/cli.js` 순서로 실행 파일 경로를 선택합니다. 다른 위치에 앱을 빌드했다면 아래처럼 설정하세요. 여러 세션에서 같은 설정을 쓰려면 해당 절대 경로 한 줄을 `.cutline/cli-path.txt`에 UTF-8로 저장하세요. 이 파일은 Git에서 제외됩니다.
+
+```powershell
+$env:CUTLINE_CLI_PATH = (Resolve-Path 'C:\work\cutline\out\cli.js').Path
+node tools/vidcli.js summary
+```
+
 ## 점수의 의미
 
 기존 정렬의 편집본 길이는 1,398.190초이며 그중 1,307.980초(93.548%)를 복원했습니다. 미정렬 90.210초는 임의로 채우지 않았습니다. 따라서 reference 타임라인은 21:47.980이며, 사람 편집본 전체의 자막·효과·편집 경계를 완벽히 복제한 것이 아닙니다. 특히 정렬 블록 중앙값 3.994초는 실제 샷 길이와 같다고 단정할 수 없습니다.
@@ -26,7 +48,7 @@ Precision은 `겹친 초 / AI가 남긴 고유 초`, recall은 `겹친 초 / 정
 원본 고유 보존 시간은 1,289.009초입니다. 전체 원본 시작 상태는 precision 약 0.176745, recall 1, F1 약 0.300396입니다. 정답 자기 비교는 F1 1입니다. 점수만 올리려고 정답 JSON을 복사하면 편집 데모의 의미가 없습니다.
 
 ```powershell
-cd D:\orca\projects\cutline-demo-chim\project
+# demo-chim 폴더에서 실행
 node tools/vidcli.js validate
 node tools/compare.js --self-test
 node tools/compare.js
@@ -34,11 +56,11 @@ node tools/compare.js
 node tools/compare.js reference/starting.timeline.json
 ```
 
-`tools/vidcli.js`는 현재 머신의 `D:/orca/projects/video-ide/out/cli.js`를 읽기 전용으로 로드합니다. 쓰기와 캐시는 이 project에만 발생합니다. 이 폴더를 다른 머신으로 옮길 때는 설치된 Cutline CLI 경로에 맞게 wrapper를 수정해야 합니다. 이 작업을 위해 video-ide에서 빌드나 테스트를 실행하지 마세요.
+`tools/vidcli.js`는 빌드된 Cutline CLI에 이 `demo-chim` 폴더를 프로젝트 경로로 전달합니다.
 
 ## Cutline에서 열기
 
-설치된 Cutline에서 **File → Open Folder…**로 이 `project` 폴더를 엽니다. `timeline.json`을 열고 **Open Video Panel** 명령으로 오른쪽 영상 패널을 엽니다. 기존 확장의 자동 열기가 설정되어 있으면 패널이 자동으로 나타납니다. 처음에는 2:01:33짜리 원본 클립 하나가 표시되어야 합니다.
+설치된 Cutline에서 **File → Open Folder…**로 이 `demo-chim` 폴더를 엽니다. `timeline.json`을 열고 **Open Video Panel** 명령으로 오른쪽 영상 패널을 엽니다. 기존 확장의 자동 열기가 설정되어 있으면 패널이 자동으로 나타납니다. 처음에는 2:01:33짜리 원본 클립 하나가 표시되어야 합니다.
 
 WebM 기본 프록시와 H.264/MP3 호환 프록시를 사용합니다. 영상 패널에서 Play, 대본 클릭, 음성 출력은 촬영 전에 직접 확인하세요. 프록시 캐시 검증과 실제 UI 재생 검증은 서로 다릅니다.
 
