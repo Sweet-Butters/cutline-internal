@@ -1,13 +1,39 @@
 # 다른 PC에서 이어가기 — 2026-11-20 검증 기록
 
-이 문서는 현재 PC에서 직접 확인한 결과를 기록한다. 최초 인수인계는 `HANDOFF.md`, 설치 순서는 `SETUP_OTHER_PC.md`를 참고한다. 두 저장소는 비공개로 유지하며 영상·대본·내부 자료를 외부로 업로드하지 않는다.
+이 문서는 현재 PC에서 직접 확인한 결과와 다른 PC에서 이어갈 절차를 기록한다. 최초 인수인계는 `HANDOFF.md`, 설치 순서는 `SETUP_OTHER_PC.md`를 참고한다. 두 저장소는 비공개로 유지한다. 영상은 저장소에 넣지 않으며 대본·내부 자료를 공개 게시하지 않는다.
+
+## GitHub에서 이어받기 — 여기부터
+
+두 저장소의 **기본 브랜치 `master`**에서 최신 코드와 자료를 받는다. 로컬 bundle을 따로 전달받을 필요가 없다.
+
+- [앱 코드](https://github.com/Sweet-Butters/cutline)
+- [내부 자료](https://github.com/Sweet-Butters/cutline-internal)
+- [검증한 Windows 설치본·VSIX·해시 다운로드](https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-handoff-20261120)
+
+새 PC에서는 접근 권한이 있는 GitHub 계정으로 로그인하고 두 저장소를 나란히 받는다.
+
+```powershell
+git clone https://github.com/Sweet-Butters/cutline.git
+git clone https://github.com/Sweet-Butters/cutline-internal.git
+```
+
+이미 받은 PC에서는 각 저장소의 변경을 먼저 커밋하거나 보관한 뒤 갱신한다.
+
+```powershell
+git -C cutline switch master
+git -C cutline pull --ff-only origin master
+git -C cutline-internal switch master
+git -C cutline-internal pull --ff-only origin master
+```
+
+이후 이 문서와 `SETUP_OTHER_PC.md`를 읽는다. `demo-chim/`의 받아쓰기·정답 타임라인·스타일·비교 도구, `measure/`의 결과·채점 코드, `pitch/`의 발표 소스·대본·Q&A, `research/`·`trinx/`의 조사 자료도 함께 받게 된다. Node·ffmpeg·Python·CLI 로그인은 PC마다 준비하고, 시연 영상은 `demo-chim/download.ps1`로 복원한다.
 
 ## 현재 작업
 
 - 앱: `Sweet-Butters/cutline`, 작업 브랜치 `Sweet-Butters/humpback`, 시작 커밋 `cb6ec15`.
 - 내부 자료: `Sweet-Butters/cutline-internal`, 작업 브랜치 `setup/local-cli-path`.
 - 내부 자료의 `ca1d579`는 CLI 경로를 `CUTLINE_CLI_PATH` → `demo-chim/.cutline/cli-path.txt` → 나란히 둔 `cutline/out/cli.js` 순으로 찾는다. 이전의 이 PC 전용 경로 변경 `9e642ba`를 대체한다. 새 PC에서 두 저장소를 나란히 두면 wrapper를 고칠 필요가 없다.
-- 이 세션은 로컬 커밋만 만든다. GitHub에 push하거나 공개 배포하지 않는다. 다른 PC에서 새 변경을 받으려면 해당 커밋의 전달이 별도로 필요하다.
+- 사용자 요청에 따라 이번 코드·도구·문서·검증 결과는 두 비공개 저장소의 `master`에 동기화한다. 검증한 앱 ZIP·VSIX와 해시는 비공개 앱 저장소의 Release에서 받는다. 영상·프록시·가상환경·인증정보는 올리지 않는다.
 
 ## 확인 완료
 
@@ -31,6 +57,7 @@
 - ZIP: `cutline/app/dist/Cutline-win-x64.zip`, 189,286,284 bytes. SHA-256: `ac407325a166836cbe36329ae891abefc3c879a534ed67012f48a1c7b6ec3fc3`.
 - VSIX: `cutline/dist/cutline.vsix`, 68,131 bytes. SHA-256: `4a3896d9d1d1106bdffbfd10f5326b8aec829ed5365c39b761b9bcae5a8b5fca`.
 - 두 파일 옆에 `.sha256` 파일이 있다. 이 파일들은 Git에 들어가지 않는다.
+- ZIP·VSIX와 두 `.sha256` 파일은 위 GitHub Release에 첨부되어 있다. 소스에서 직접 빌드할 수도 있다.
 - ZIP에서 독립적으로 압축 해제한 VSCodium 1.100.33714와 포함된 확장의 통합 테스트가 종료 코드 0으로 통과했다. WebM 직접 재생, 640px 영상, 프레임 진행·오디오 디코딩을 확인했다.
 - 실행기의 폴더 인자, 최초 샘플 복사, 기존 프로젝트 편집 보존 검사 통과.
 - 원본: `demo-chim/sources/original.mp4`, 7,293.062676초, 1,361,925,581 bytes, 1280×720 AV1/AAC. 타임라인의 마지막 초와 정확히 일치하며 `validate` 통과.
@@ -57,11 +84,11 @@ node tools/test-playback.js --project ../cutline-internal/demo-chim --vscode ./a
 
 ## 다른 PC에서 먼저 할 일
 
-1. 두 저장소의 로컬 변경을 확인한 뒤 원격 변경을 가져온다. 이 세션에서 만든 커밋이 아직 원격에 없으면 먼저 전달받는다.
-2. `SETUP_OTHER_PC.md`대로 도구와 앱 의존성을 설치하고 빌드한다. `.venv`, 프록시 캐시, 앱 ZIP은 Git에 들어가지 않는다.
-3. 두 저장소를 나란히 두거나 `CUTLINE_CLI_PATH`에 앱의 `out/cli.js` 절대경로를 지정한 뒤 `node demo-chim/tools/vidcli.js summary`를 실행한다.
+1. 위 절차대로 두 저장소의 `master`를 clone/pull한다.
+2. `SETUP_OTHER_PC.md`대로 필요한 도구를 설치한다. 앱은 Release에서 받아 풀거나 소스에서 빌드한다. `.venv`와 프록시 캐시는 PC마다 만들며 Git에 들어가지 않는다.
+3. 앱을 소스에서 빌드했다면 나란히 둔 저장소의 `out/cli.js`를 자동으로 찾는다. Release 앱을 사용한다면 `CUTLINE_CLI_PATH`에 압축을 푼 `Cutline/out/cli.js` 절대경로를 지정한다. 내부 자료 루트에서 `node demo-chim/tools/vidcli.js summary`를 실행한다.
 4. 영상을 복원한 뒤 `validate`를 실행한다. 길이 차이가 있으면 원본 타임라인을 임의로 덮어쓰지 말고 확인한다.
-5. 아래의 최종 검증 기록이 갱신되었는지 확인하고, 미완료 항목부터 이어간다.
+5. 사용할 Codex CLI에 본인 구독으로 로그인하고 Cutline 대화창에서 Codex를 선택한다. 실제 시연 전 스피커 음성을 직접 확인한다. 아래는 이번 PC의 검증 결과이며 새 PC의 정상 동작을 자동으로 보장하지 않는다.
 
 ## 최종 검증 기록
 
@@ -79,9 +106,9 @@ node tools/test-playback.js --project ../cutline-internal/demo-chim --vscode ./a
 
 대본을 제외한 숫자 진단 결과는 [verification/full-playback-20261120.json](verification/full-playback-20261120.json)에 보존했다. 원본·정답 타임라인·대본은 수정하지 않았다.
 
-## GitHub에 push하지 않고 다른 PC로 옮기기
+## 선택: 이전 로컬 스냅샷을 오프라인으로 옮기기
 
-현재 PC의 `C:\Users\pxh7y\orca\deliverables\cutline-handoff-20261120\`에 로컬 변경만 담은 Git bundle, 앱 ZIP·VSIX와 해시, 재생 검사 결과, `manifest.json`을 모았다. 이 세션의 bundle은 기존 앱 `cb6ec15`, 내부 자료 `bca451b` 커밋을 전제로 하므로 먼저 GitHub에서 두 저장소를 clone하거나 최신 상태로 받는다. 영상·캐시·가상환경은 전달 묶음에 들어가지 않는다.
+GitHub 동기화 전에 만든 로컬 스냅샷은 `C:\Users\pxh7y\orca\deliverables\cutline-handoff-20261120\`에 있다. **일반적인 이어받기는 위 GitHub `master` 절차를 사용한다.** 아래 bundle은 당시 코드와 자료를 오프라인으로 전달할 때만 쓰며, 이후 GitHub 동기화 안내 변경은 들어 있지 않다. 기존 앱 `cb6ec15`, 내부 자료 `bca451b` 커밋을 전제로 한다. 영상·캐시·가상환경은 이 스냅샷에 들어가지 않는다.
 
 아래는 전달 폴더를 새 PC의 `C:\handoff`에 복사하고, 두 저장소가 현재 폴더 아래에 있다는 예시다. 기존 작업을 먼저 커밋하거나 보관한다.
 

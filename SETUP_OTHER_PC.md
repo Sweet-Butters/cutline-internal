@@ -12,6 +12,8 @@
 - Windows 권장(앱 패키징 스크립트가 PowerShell). macOS/Linux는 확장 개발 실행만 가능(미검증).
 
 ## 1. 앱 빌드
+검증한 설치본을 바로 쓰려면 [비공개 GitHub Release](https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-handoff-20261120)에서 `Cutline-win-x64.zip`과 해시를 받아 압축을 푼 뒤 `Cutline.exe`를 실행한다. 아래는 소스에서 직접 빌드하는 방법이다.
+
 ```
 git clone https://github.com/Sweet-Butters/cutline.git
 cd cutline
