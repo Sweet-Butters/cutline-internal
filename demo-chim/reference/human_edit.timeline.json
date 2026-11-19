@@ -1,0 +1,698 @@
+{
+  "version": 1,
+  "clips": [
+    {
+      "id": "human_001",
+      "source": "sources/original.mp4",
+      "in": 4151.704671201815,
+      "out": 4153.701587301587,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_002",
+      "source": "sources/original.mp4",
+      "in": 2285.72589569161,
+      "out": 2291.7166439909297,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_003",
+      "source": "sources/original.mp4",
+      "in": 4071.89768707483,
+      "out": 4075.8915192743766,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_004",
+      "source": "sources/original.mp4",
+      "in": 2511.400634920635,
+      "out": 2515.3944671201816,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_005",
+      "source": "sources/original.mp4",
+      "in": 1.509297052154195,
+      "out": 7.500045351473923,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_006",
+      "source": "sources/original.mp4",
+      "in": 12.72453514739229,
+      "out": 16.718367346938777,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_007",
+      "source": "sources/original.mp4",
+      "in": 17.182766439909297,
+      "out": 21.176598639455783,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_008",
+      "source": "sources/original.mp4",
+      "in": 24.125532879818593,
+      "out": 26.122448979591837,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_009",
+      "source": "sources/original.mp4",
+      "in": 179.39736961451248,
+      "out": 183.39120181405897,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_010",
+      "source": "sources/original.mp4",
+      "in": 229.71501133786848,
+      "out": 231.71192743764172,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_011",
+      "source": "sources/original.mp4",
+      "in": 252.6098866213152,
+      "out": 254.60680272108843,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_012",
+      "source": "sources/original.mp4",
+      "in": 257.46285714285716,
+      "out": 261.45668934240365,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_013",
+      "source": "sources/original.mp4",
+      "in": 297.354739229025,
+      "out": 301.34857142857146,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_014",
+      "source": "sources/original.mp4",
+      "in": 405.55972789115646,
+      "out": 409.55356009070294,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_015",
+      "source": "sources/original.mp4",
+      "in": 453.81079365079364,
+      "out": 459.8015419501134,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_016",
+      "source": "sources/original.mp4",
+      "in": 620.2978684807256,
+      "out": 622.2947845804989,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_017",
+      "source": "sources/original.mp4",
+      "in": 662.1402267573696,
+      "out": 676.1186394557823,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_018",
+      "source": "sources/original.mp4",
+      "in": 822.5901133786848,
+      "out": 824.587029478458,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_019",
+      "source": "sources/original.mp4",
+      "in": 848.3410430839002,
+      "out": 850.3379591836734,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_020",
+      "source": "sources/original.mp4",
+      "in": 911.801179138322,
+      "out": 915.7950113378685,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_021",
+      "source": "sources/original.mp4",
+      "in": 854.33179138322,
+      "out": 856.3287074829932,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_022",
+      "source": "sources/original.mp4",
+      "in": 933.0938775510205,
+      "out": 937.0877097505669,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_023",
+      "source": "sources/original.mp4",
+      "in": 875.6012698412699,
+      "out": 877.5981859410431,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_024",
+      "source": "sources/original.mp4",
+      "in": 882.1957369614513,
+      "out": 884.1926530612245,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_025",
+      "source": "sources/original.mp4",
+      "in": 892.2499773242631,
+      "out": 894.2468934240363,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_026",
+      "source": "sources/original.mp4",
+      "in": 898.3568253968255,
+      "out": 900.3537414965987,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_027",
+      "source": "sources/original.mp4",
+      "in": 922.9003174603175,
+      "out": 926.894149659864,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_028",
+      "source": "sources/original.mp4",
+      "in": 986.615873015873,
+      "out": 988.6127891156463,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_029",
+      "source": "sources/original.mp4",
+      "in": 933.1403174603175,
+      "out": 937.134149659864,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_030",
+      "source": "sources/original.mp4",
+      "in": 996.855873015873,
+      "out": 998.8527891156463,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_031",
+      "source": "sources/original.mp4",
+      "in": 1081.6087074829932,
+      "out": 1083.6056235827664,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_032",
+      "source": "sources/original.mp4",
+      "in": 1088.528253968254,
+      "out": 1090.5251700680271,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_033",
+      "source": "sources/original.mp4",
+      "in": 1139.3567346938776,
+      "out": 1143.350566893424,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_034",
+      "source": "sources/original.mp4",
+      "in": 1155.3320634920635,
+      "out": 1161.3228117913832,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_035",
+      "source": "sources/original.mp4",
+      "in": 1162.1355102040816,
+      "out": 1164.1324263038548,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_036",
+      "source": "sources/original.mp4",
+      "in": 1185.192925170068,
+      "out": 1189.1867573696145,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_037",
+      "source": "sources/original.mp4",
+      "in": 1197.3601814058957,
+      "out": 1227.3139229024944,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_038",
+      "source": "sources/original.mp4",
+      "in": 1424.5209977324264,
+      "out": 1448.4839909297052,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_039",
+      "source": "sources/original.mp4",
+      "in": 1449.714648526077,
+      "out": 1453.7084807256235,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_040",
+      "source": "sources/original.mp4",
+      "in": 1457.8648526077097,
+      "out": 1459.861768707483,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_041",
+      "source": "sources/original.mp4",
+      "in": 1523.5308843537416,
+      "out": 1527.524716553288,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_042",
+      "source": "sources/original.mp4",
+      "in": 1550.5356916099774,
+      "out": 1552.5326077097507,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_043",
+      "source": "sources/original.mp4",
+      "in": 1554.970702947846,
+      "out": 1556.967619047619,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_044",
+      "source": "sources/original.mp4",
+      "in": 1576.7278004535149,
+      "out": 1598.6938775510205,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_045",
+      "source": "sources/original.mp4",
+      "in": 1646.7591836734694,
+      "out": 1666.7283446712017,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_046",
+      "source": "sources/original.mp4",
+      "in": 1859.2449886621316,
+      "out": 1881.2342857142858,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_047",
+      "source": "sources/original.mp4",
+      "in": 1895.1662585034014,
+      "out": 1897.1631746031746,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_048",
+      "source": "sources/original.mp4",
+      "in": 1904.7096598639457,
+      "out": 1908.7267120181407,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_049",
+      "source": "sources/original.mp4",
+      "in": 1975.344761904762,
+      "out": 1977.3416780045352,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_050",
+      "source": "sources/original.mp4",
+      "in": 1997.496598639456,
+      "out": 2025.4534240362811,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_051",
+      "source": "sources/original.mp4",
+      "in": 2093.5343310657595,
+      "out": 2143.4572335600906,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_052",
+      "source": "sources/original.mp4",
+      "in": 2143.7126530612245,
+      "out": 2145.709569160998,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_053",
+      "source": "sources/original.mp4",
+      "in": 2149.4944217687075,
+      "out": 2151.491337868481,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_054",
+      "source": "sources/original.mp4",
+      "in": 2159.1307029478457,
+      "out": 2165.1214512471656,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_055",
+      "source": "sources/original.mp4",
+      "in": 2170.299501133787,
+      "out": 2174.270113378685,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_056",
+      "source": "sources/original.mp4",
+      "in": 2284.5184580498867,
+      "out": 2316.4691156462586,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_057",
+      "source": "sources/original.mp4",
+      "in": 2323.1796825396827,
+      "out": 2355.1303401360547,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_058",
+      "source": "sources/original.mp4",
+      "in": 2355.385759637188,
+      "out": 2363.3734240362814,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_059",
+      "source": "sources/original.mp4",
+      "in": 2370.919909297052,
+      "out": 2372.9168253968255,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_060",
+      "source": "sources/original.mp4",
+      "in": 2383.574784580499,
+      "out": 2385.571700680272,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_061",
+      "source": "sources/original.mp4",
+      "in": 2449.914195011338,
+      "out": 2511.7721541950114,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_062",
+      "source": "sources/original.mp4",
+      "in": 2512.724172335601,
+      "out": 2524.7056689342403,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_063",
+      "source": "sources/original.mp4",
+      "in": 2554.473650793651,
+      "out": 2556.470566893424,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_064",
+      "source": "sources/original.mp4",
+      "in": 2762.547664399093,
+      "out": 2788.5075736961453,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_065",
+      "source": "sources/original.mp4",
+      "in": 2793.569523809524,
+      "out": 2795.566439909297,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_066",
+      "source": "sources/original.mp4",
+      "in": 3205.3289795918367,
+      "out": 3227.2950566893423,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_067",
+      "source": "sources/original.mp4",
+      "in": 3240.25179138322,
+      "out": 3264.214784580499,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_068",
+      "source": "sources/original.mp4",
+      "in": 3271.9934693877553,
+      "out": 3303.9441269841273,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_069",
+      "source": "sources/original.mp4",
+      "in": 3426.4758276643993,
+      "out": 3458.426485260771,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_070",
+      "source": "sources/original.mp4",
+      "in": 3465.0906122448982,
+      "out": 3493.0474376417233,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_071",
+      "source": "sources/original.mp4",
+      "in": 3502.3586394557824,
+      "out": 3510.3463038548753,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_072",
+      "source": "sources/original.mp4",
+      "in": 3515.2224943310657,
+      "out": 3519.216326530612,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_073",
+      "source": "sources/original.mp4",
+      "in": 3885.5111111111114,
+      "out": 3969.3815873015874,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_074",
+      "source": "sources/original.mp4",
+      "in": 4038.3216326530614,
+      "out": 4090.2414512471655,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_075",
+      "source": "sources/original.mp4",
+      "in": 4098.99537414966,
+      "out": 4109.003174603175,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_076",
+      "source": "sources/original.mp4",
+      "in": 4327.293968253968,
+      "out": 4389.1751473922905,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_077",
+      "source": "sources/original.mp4",
+      "in": 4400.018866213152,
+      "out": 4404.012698412698,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_078",
+      "source": "sources/original.mp4",
+      "in": 4690.105759637188,
+      "out": 4730.044081632653,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_079",
+      "source": "sources/original.mp4",
+      "in": 4731.553378684807,
+      "out": 4735.547210884354,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_080",
+      "source": "sources/original.mp4",
+      "in": 4736.359909297053,
+      "out": 4738.356825396825,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_081",
+      "source": "sources/original.mp4",
+      "in": 4748.4110657596375,
+      "out": 4750.407981859411,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_082",
+      "source": "sources/original.mp4",
+      "in": 4808.9454875283445,
+      "out": 4810.942403628118,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_083",
+      "source": "sources/original.mp4",
+      "in": 5001.717551020408,
+      "out": 5041.655873015873,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_084",
+      "source": "sources/original.mp4",
+      "in": 1450.2487074829933,
+      "out": 1452.2456235827665,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_085",
+      "source": "sources/original.mp4",
+      "in": 5046.764263038549,
+      "out": 5050.758095238095,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_086",
+      "source": "sources/original.mp4",
+      "in": 5090.742857142857,
+      "out": 5092.739773242631,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_087",
+      "source": "sources/original.mp4",
+      "in": 5457.966439909297,
+      "out": 5459.963356009071,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_088",
+      "source": "sources/original.mp4",
+      "in": 5467.9742403628115,
+      "out": 5469.971156462585,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_089",
+      "source": "sources/original.mp4",
+      "in": 5500.040997732426,
+      "out": 5502.0379138322,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_090",
+      "source": "sources/original.mp4",
+      "in": 5525.513287981859,
+      "out": 5613.377596371883,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_091",
+      "source": "sources/original.mp4",
+      "in": 5682.596281179139,
+      "out": 5778.448253968254,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_092",
+      "source": "sources/original.mp4",
+      "in": 5782.60462585034,
+      "out": 5788.59537414966,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_093",
+      "source": "sources/original.mp4",
+      "in": 5792.937505668934,
+      "out": 5796.931337868481,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_094",
+      "source": "sources/original.mp4",
+      "in": 6228.056235827665,
+      "out": 6230.053151927438,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_095",
+      "source": "sources/original.mp4",
+      "in": 6451.6411791383225,
+      "out": 6453.638095238095,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_096",
+      "source": "sources/original.mp4",
+      "in": 6463.1350566893425,
+      "out": 6465.131972789116,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_097",
+      "source": "sources/original.mp4",
+      "in": 6320.91283446712,
+      "out": 6408.777142857143,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_098",
+      "source": "sources/original.mp4",
+      "in": 6769.42947845805,
+      "out": 6781.4109750566895,
+      "reason": "사람 편집자 원본 구간"
+    },
+    {
+      "id": "human_099",
+      "source": "sources/original.mp4",
+      "in": 6782.989931972789,
+      "out": 6787.006984126984,
+      "reason": "사람 편집자 원본 구간"
+    }
+  ]
+}

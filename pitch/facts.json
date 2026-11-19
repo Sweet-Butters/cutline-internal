@@ -1,0 +1,187 @@
+{
+  "COVERAGE": {
+    "value": 93.55,
+    "display": "93.55%",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": ""
+  },
+  "F1_RAW": {
+    "value": 0.108,
+    "display": "0.11",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": "소수 둘째 자리 반올림; 원본 시간축 겹침 F1"
+  },
+  "F1_STYLE": {
+    "value": 0.207,
+    "display": "0.21",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": "소수 둘째 자리 반올림"
+  },
+  "F1_RATIO": {
+    "value": 1.9166666666666665,
+    "display": "약 2배",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "derived",
+    "note": "0.207 / 0.108 = 1.9167, 반올림"
+  },
+  "KEY_RAW": {
+    "value": 2.7,
+    "display": "2.7개",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": ""
+  },
+  "KEY_STYLE": {
+    "value": 7,
+    "display": "7개",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": ""
+  },
+  "KEY_TOTAL": {
+    "value": 24,
+    "display": "24개",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": "사람이 15초 이상 남긴 구간 중 30% 이상 겹치면 포착"
+  },
+  "RUNS": {
+    "value": 3,
+    "display": "각 3회 평균",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": ""
+  },
+  "AGENT_TIME": {
+    "value": [
+      2,
+      3
+    ],
+    "display": "약 2~3분",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": "Claude Code 구독 에이전트 편집 실행. 전사 준비·최종 렌더·사람 검토 시간 아님"
+  },
+  "ORIGINAL": {
+    "value": 7293,
+    "display": "2:01:33",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": ""
+  },
+  "HUMAN": {
+    "value": 1398,
+    "display": "23분",
+    "source": "D:/orca/projects/cutline-measure/MEASUREMENT.md (2026-11-20)",
+    "kind": "fact",
+    "note": "23:18을 분 단위 요약"
+  },
+  "RAPA_SMALL": {
+    "value": 17581,
+    "display": "17,581개",
+    "source": "RAPA, 2025년 디지털크리에이터 활동현황 조사, 2025-05 모집단, 본문 p8/PDF p30; https://www.meplex.co.kr/fileHandler/downloadFile?file_seq=6936",
+    "kind": "fact",
+    "note": ""
+  },
+  "RAPA_TOTAL": {
+    "value": 38896,
+    "display": "38,896개",
+    "source": "RAPA, 2025년 디지털크리에이터 활동현황 조사, 2025-05 모집단, 본문 p8/PDF p30; https://www.meplex.co.kr/fileHandler/downloadFile?file_seq=6936",
+    "kind": "fact",
+    "note": ""
+  },
+  "SOOP_ACTIVE": {
+    "value": 13511,
+    "display": "13,511명",
+    "source": "SOOP IR Book 2026-05, p13; https://kind.krx.co.kr/external/dst/irReference/18658/2605_IR_Book_SOOP_Kor.pdf",
+    "kind": "fact",
+    "note": "Active: 과거 연속 3개월 동안 한 달에 최소 5시간 이상 방송. 채널 수와 합산 금지"
+  },
+  "INCOME": {
+    "value": 205.25,
+    "display": "약 205만 원/월",
+    "source": "국세청 2024 신고자료(박성훈 의원실), 하위 50% 연평균 수입 2,463만원; 2026-06-16 보도 https://m.wowtv.co.kr/NewsCenter/AMP/Read?articleId=A202606160292",
+    "kind": "derived",
+    "note": "2,463만원 / 12개월 = 205.25만원. 순소득 아님; 허용된 팩트시트 [11]과 일치"
+  },
+  "OUTSOURCE": {
+    "value": [
+      60,
+      480
+    ],
+    "display": "60~480만 원/월",
+    "source": "허용된 2026-11-17 팩트시트 공개시장 항목 [6] 크몽 과거 가격 안내",
+    "kind": "historical-derived",
+    "note": "편당 5~40만원 × 월12편. 안내 발행연도·원 URL 미기재, 오늘 동일 범위 재검증 불가. 현재 평균가/절감액 아님"
+  },
+  "DESCRIPT": {
+    "value": 24,
+    "display": "$24/인·월",
+    "source": "https://www.descript.com/pricing (2026-11-20 브라우저 확인)",
+    "kind": "fact",
+    "note": "Hobbyist 월 결제; 연 결제 월환산 $16과 구분"
+  },
+  "OPUS": {
+    "value": 12,
+    "display": "$12/월",
+    "source": "https://www.opus.pro/pricing (2026-11-20 브라우저 확인)",
+    "kind": "fact",
+    "note": "Starter 당일 할인 표시 $12 billed monthly, 정가 $15. 검색 캐시는 $15; 실제 브라우저 표시 채택"
+  },
+  "VREW": {
+    "value": 133.99,
+    "display": "$133.99/년",
+    "source": "https://vrew.ai/en/payment/pricepolicy (2026-11-20 브라우저 확인)",
+    "kind": "fact",
+    "note": "Light 연 결제, 사이트 월환산 $11.17, VAT 포함 표기"
+  },
+  "CURSOR": {
+    "value": 30,
+    "display": "$30/월",
+    "source": "https://cursor.com/pricing (2026-11-20 브라우저 및 웹 확인)",
+    "kind": "fact",
+    "note": "현재 Premium 표시. 요청된 Pro는 현행 가격표에 없음. Pro 현행가 확인 불가; 과거 $20을 현재가로 사용하지 않음. 세금·타사 모델 사용량 별도"
+  },
+  "CHANNEL_PRICE": {
+    "value": 12000,
+    "display": "월 12,000원",
+    "source": "이번 v2 덱의 가격 제안(브리프 BM 요청에 따라 작성)",
+    "kind": "plan",
+    "note": "제안: 채널 1개 스타일 메모리, VAT 포함 목표. 지불 의향 미검증"
+  },
+  "EDITOR_PRICE": {
+    "value": 39000,
+    "display": "월 39,000원",
+    "source": "이번 v2 덱의 가격 제안(브리프 BM 요청에 따라 작성)",
+    "kind": "plan",
+    "note": "제안: 편집자 1명/채널 5개 포함, VAT 포함 목표. 지불 의향 미검증"
+  },
+  "INFERENCE_COST": {
+    "value": 0,
+    "display": "거의 0",
+    "source": "video-ide/README.md: 확장은 API를 직접 호출하지 않고 사용자의 구독 CLI 실행",
+    "kind": "structural",
+    "note": "Cutline이 직접 부담하는 AI 추론 API 비용 기준. 구독은 고객 부담; 저장·결제·지원 비용 별도"
+  },
+  "TEAM_NUMBERS": {
+    "value": [
+      10,
+      2,
+      1
+    ],
+    "display": "TOP 10 · 2기 · 1년",
+    "source": "사용자 v2 브리프 (2026-11-20)",
+    "kind": "user-provided",
+    "note": "정회광 Cursor 트레인톤 TOP10·모두의 창업2기, 조남하 Coloso 1년. 다른 이력 가져오지 않음"
+  },
+  "DEMO_SECONDS": {
+    "value": 60,
+    "display": "1분",
+    "source": "사용자 v2 브리프 (2026-11-20)",
+    "kind": "plan",
+    "note": "영상 흐름 0–8/8–16/16–24/24–34/34–44/44–53/53–60초. 시연 구성 목표; 녹화 파일 제공 없음"
+  }
+}

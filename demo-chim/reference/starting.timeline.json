@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "clips": [
+    {
+      "id": "original",
+      "source": "sources/original.mp4",
+      "in": 0,
+      "out": 7293.062676,
+      "reason": "편집 전 전체 원본"
+    }
+  ]
+}

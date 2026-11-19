@@ -1,0 +1,17 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4522C1A0450689C7191D9FE98A943E02E2C88081D8C92A1F190D472A3E353DB2",
+    "Path": "D:\\orca\\projects\\gangeuigam-corpus\\video\\wnXAkjgVELc.mp4"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "4522C1A0450689C7191D9FE98A943E02E2C88081D8C92A1F190D472A3E353DB2",
+    "Path": "D:\\orca\\projects\\cutline-demo-chim\\project\\sources\\original.mp4"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "1A9B6F497098671137F380C4BD46D56FB5FAA4A54F6E06F55300A3B07BE2C4AC",
+    "Path": "D:\\orca\\projects\\cutline-demo-chim\\project\\reference\\human_edit.mp4"
+  }
+]

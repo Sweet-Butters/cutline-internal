@@ -1,0 +1,17 @@
+{
+  "timeline.json": {
+    "valid": true,
+    "clips": 1
+  },
+  "reference/human_edit.timeline.json": {
+    "valid": true,
+    "clips": 99
+  },
+  "transcripts": {
+    "sources/original.mp4": {
+      "segments": 215,
+      "first": 13.01,
+      "last": 7287.15
+    }
+  }
+}

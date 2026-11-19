@@ -1,0 +1,27 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0B87FB9849D1A875E88EAEDB25C8A868B4AC7CE8574FE90AF9601AFB228C449B",
+    "Path": "D:\\orca\\projects\\video-ide\\src\\core.ts"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "7C69E65549F684FA0F3A36ABD267A5EACF44B63D81F616ED729F71CFEB25F9B2",
+    "Path": "D:\\orca\\projects\\video-ide\\src\\media.ts"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "C3F207A36B9387B598E5ED6CB519D150424493611D0B74D26A9A9C44CDC36948",
+    "Path": "D:\\orca\\projects\\video-ide\\out\\core.js"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "FCEA6C72FFBD5A9AB0124ABF8E531C568AE3FD9AC379C066139A57B62B378062",
+    "Path": "D:\\orca\\projects\\video-ide\\out\\media.js"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "1BFF309FE7492D05299936C8BBB5FF1B2DC33D4697749AB3D9B14D4FA040E09B",
+    "Path": "D:\\orca\\projects\\video-ide\\out\\cli.js"
+  }
+]

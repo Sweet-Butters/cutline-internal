@@ -1,0 +1,20 @@
+[
+  {
+    "path": "D:\\orca\\projects\\cutline-demo-chim\\project\\.cutline-cache\\27c78aeac18ede832f98a61ae957eb8ddb3b0a14a2301a095dde40ee1939c158.webm",
+    "format": "webm",
+    "seconds": 2613.6255924001152,
+    "wall_seconds": 3394.2290814,
+    "paused_for_asr_seconds": 780.6034889998846,
+    "active_generation_seconds": 2613.6255924001152,
+    "cache_reuse_seconds": 0.6810281998477876
+  },
+  {
+    "path": "D:\\orca\\projects\\cutline-demo-chim\\project\\.cutline-cache\\04344d594fed56d897ff4ffb0b10d5f86c67c51fa1bbb2a4c33a2df652d44077.mp4",
+    "format": "mp4",
+    "seconds": 1431.6319939,
+    "wall_seconds": 1431.6319939,
+    "paused_for_asr_seconds": 0,
+    "active_generation_seconds": 1431.6319939,
+    "cache_reuse_seconds": 0.8510949998162687
+  }
+]

@@ -1,0 +1,1 @@
+const task=await taskSpace(7);const p=task.page('p1');await p.click('@89');console.log(await p.snapshot({scope:'full_page'}));console.log(await p.evaluate(()=>Array.from(document.querySelectorAll('a')).map(a=>({text:a.textContent,url:a.href})).filter(a=>/pdf|download/i.test(a.url+a.text))));

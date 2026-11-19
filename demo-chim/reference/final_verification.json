@@ -1,0 +1,54 @@
+{
+  "proxies": [
+    {
+      "format": "webm",
+      "profile": "vp8-vorbis-640x360-24fps-v1",
+      "exact_cache_key": "27c78aeac18ede832f98a61ae957eb8ddb3b0a14a2301a095dde40ee1939c158",
+      "duration": 7293.065,
+      "video_codec": "vp8",
+      "audio_codec": "vorbis",
+      "width": 640,
+      "height": 360,
+      "fps": "24/1",
+      "bytes": 729639336,
+      "cache_reuse_seconds": 0.6810281998477876
+    },
+    {
+      "format": "mp4",
+      "profile": "h264-mp3-640x360-24fps-v1",
+      "exact_cache_key": "04344d594fed56d897ff4ffb0b10d5f86c67c51fa1bbb2a4c33a2df652d44077",
+      "duration": 7293.062676,
+      "video_codec": "h264",
+      "audio_codec": "mp3",
+      "width": 640,
+      "height": 360,
+      "fps": "24/1",
+      "bytes": 471438797,
+      "cache_reuse_seconds": 0.8510949998162687
+    }
+  ],
+  "starting_timeline_unchanged": true,
+  "cutline_validator_passed": true,
+  "compare_self_f1": 1,
+  "starting_comparison": {
+    "precision": 0.17674458587137834,
+    "recall": 1,
+    "f1": 0.3003958343951065,
+    "overlap_seconds": 1289.0093424036263,
+    "predicted_unique_seconds": 7293.062676,
+    "reference_unique_seconds": 1289.0093424036263,
+    "predicted_duration_seconds": 7293.062676,
+    "reference_duration_seconds": 1307.9800453514727,
+    "predicted_clips": 1,
+    "reference_clips": 99,
+    "prediction": "timeline.json",
+    "reference": "reference\\human_edit.timeline.json",
+    "method": "Per-source union of half-open source-time intervals. Repeats counted once; order ignored.",
+    "reference_alignment_coverage": 0.9354811925016401
+  },
+  "ui_playback_tested": false,
+  "export_tested": false,
+  "cloud_agent_invoked": false,
+  "git_initialized": false,
+  "note": "Proxy active time excludes the explicitly recorded pauses for ASR. No GUI playback or audio-listening claim."
+}

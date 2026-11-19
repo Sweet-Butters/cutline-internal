@@ -1,0 +1,16 @@
+{
+  "precision": 0.17674458587137834,
+  "recall": 1,
+  "f1": 0.3003958343951065,
+  "overlap_seconds": 1289.0093424036263,
+  "predicted_unique_seconds": 7293.062676,
+  "reference_unique_seconds": 1289.0093424036263,
+  "predicted_duration_seconds": 7293.062676,
+  "reference_duration_seconds": 1307.9800453514727,
+  "predicted_clips": 1,
+  "reference_clips": 99,
+  "prediction": "timeline.json",
+  "reference": "reference\\human_edit.timeline.json",
+  "method": "Per-source union of half-open source-time intervals. Repeats counted once; order ignored.",
+  "reference_alignment_coverage": 0.9354811925016401
+}

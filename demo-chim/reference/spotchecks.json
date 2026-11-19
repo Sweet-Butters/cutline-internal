@@ -1,0 +1,65 @@
+{
+  "method": "Independent 8 kHz centered log-STFT cosine correlation, search +/-0.4 s in 8ms hops; up to 8 s per sample; negative control +60 s. Downloaded edit video audio versus copied original video audio. No listening claim.",
+  "samples": [
+    {
+      "segment_index": 0,
+      "edited_start": 5.990748299319728,
+      "source_start": 4151.704671201815,
+      "seconds": 1.9969160997732427,
+      "alignment_confidence": 0.9476715922355652,
+      "spectral_correlation": 0.9003910422325134,
+      "residual_lag_seconds": 0.0,
+      "negative_control_correlation": -0.007728285156190395
+    },
+    {
+      "segment_index": 14,
+      "edited_start": 79.87664399092971,
+      "source_start": 453.81079365079364,
+      "seconds": 5.990748299319733,
+      "alignment_confidence": 0.5507572293281555,
+      "spectral_correlation": 0.8620645403862,
+      "residual_lag_seconds": 0.0,
+      "negative_control_correlation": 0.02193915657699108
+    },
+    {
+      "segment_index": 24,
+      "edited_start": 127.80263038548753,
+      "source_start": 892.2499773242631,
+      "seconds": 1.9969160997732445,
+      "alignment_confidence": 0.5516549944877625,
+      "spectral_correlation": 0.6617896556854248,
+      "residual_lag_seconds": 0.0,
+      "negative_control_correlation": 0.045966800302267075
+    },
+    {
+      "segment_index": 49,
+      "edited_start": 317.50965986394556,
+      "source_start": 1997.496598639456,
+      "seconds": 8,
+      "alignment_confidence": 0.9657496213912964,
+      "spectral_correlation": 0.9419813752174377,
+      "residual_lag_seconds": 0.0,
+      "negative_control_correlation": -0.004438844509422779
+    },
+    {
+      "segment_index": 74,
+      "edited_start": 886.6307482993197,
+      "source_start": 4098.99537414966,
+      "seconds": 8,
+      "alignment_confidence": 0.7335004210472107,
+      "spectral_correlation": 0.9348906874656677,
+      "residual_lag_seconds": 0.016000000000000014,
+      "negative_control_correlation": 0.007346217054873705
+    },
+    {
+      "segment_index": 98,
+      "edited_start": 1379.8690249433107,
+      "source_start": 6782.989931972789,
+      "seconds": 3.993832199546432,
+      "alignment_confidence": 0.9395287036895752,
+      "spectral_correlation": 0.9128987193107605,
+      "residual_lag_seconds": 0.016000000000000014,
+      "negative_control_correlation": 0.12055478245019913
+    }
+  ]
+}

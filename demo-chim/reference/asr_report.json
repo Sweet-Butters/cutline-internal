@@ -1,0 +1,170 @@
+{
+  "model": "faster-whisper base (multilingual)",
+  "model_path": "D:/orca/projects/gangeuigam-mvp/runs/models/base",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 4,
+  "beam_size": 1,
+  "language": "ko",
+  "vad_filter": true,
+  "condition_on_previous_text": false,
+  "wall_seconds": 195.04182179970667,
+  "processed_duration": 7293.062676,
+  "segments": 215,
+  "first_segment": 13.01,
+  "last_segment": 7287.15,
+  "speech_seconds": 519.9299999999953,
+  "low_confidence_rule": "avg_logprob < -1 OR no_speech_prob > 0.6 OR compression_ratio > 2.4 OR mean_word_probability < 0.5; heuristic, not measured word error rate",
+  "low_confidence_segments": 76,
+  "low_confidence_segment_share": 0.35348837209302325,
+  "low_confidence_speech_seconds_share": 0.3022522262612344,
+  "chunks": [
+    {
+      "start": 0,
+      "end": 300,
+      "seconds": 26.167401199694723
+    },
+    {
+      "start": 300,
+      "end": 600,
+      "seconds": 21.365906099788845
+    },
+    {
+      "start": 600,
+      "end": 900,
+      "seconds": 14.22065360005945
+    },
+    {
+      "start": 900,
+      "end": 1200,
+      "seconds": 20.352309299632907
+    },
+    {
+      "start": 1200,
+      "end": 1500,
+      "seconds": 5.063870199956
+    },
+    {
+      "start": 1500,
+      "end": 1800,
+      "seconds": 4.454909100197256
+    },
+    {
+      "start": 1800,
+      "end": 2100,
+      "seconds": 7.400261200033128
+    },
+    {
+      "start": 2100,
+      "end": 2400,
+      "seconds": 4.797437799628824
+    },
+    {
+      "start": 2400,
+      "end": 2700,
+      "seconds": 4.266318399924785
+    },
+    {
+      "start": 2700,
+      "end": 3000,
+      "seconds": 4.945554200094193
+    },
+    {
+      "start": 3000,
+      "end": 3300,
+      "seconds": 6.489517199806869
+    },
+    {
+      "start": 3300,
+      "end": 3600,
+      "seconds": 4.8554711998440325
+    },
+    {
+      "start": 3600,
+      "end": 3900,
+      "seconds": 4.8415553998202085
+    },
+    {
+      "start": 3900,
+      "end": 4200,
+      "seconds": 4.007468199823052
+    },
+    {
+      "start": 4200,
+      "end": 4500,
+      "seconds": 4.336763000115752
+    },
+    {
+      "start": 4500,
+      "end": 4800,
+      "seconds": 9.336913800332695
+    },
+    {
+      "start": 4800,
+      "end": 5100,
+      "seconds": 4.249046600423753
+    },
+    {
+      "start": 5100,
+      "end": 5400,
+      "seconds": 7.496561800129712
+    },
+    {
+      "start": 5400,
+      "end": 5700,
+      "seconds": 7.999196100048721
+    },
+    {
+      "start": 5700,
+      "end": 6000,
+      "seconds": 4.138543500099331
+    },
+    {
+      "start": 6000,
+      "end": 6300,
+      "seconds": 4.538101099897176
+    },
+    {
+      "start": 6300,
+      "end": 6600,
+      "seconds": 4.38274549972266
+    },
+    {
+      "start": 6600,
+      "end": 6900,
+      "seconds": 6.750441700220108
+    },
+    {
+      "start": 6900,
+      "end": 7200,
+      "seconds": 4.22848130017519
+    },
+    {
+      "start": 7200,
+      "end": 7293.062676,
+      "seconds": 3.7817442999221385
+    }
+  ],
+  "batch_size": 4,
+  "temperature": 0.0,
+  "word_timestamps": true,
+  "without_timestamps": true,
+  "no_repeat_ngram_size": 3,
+  "repetition_penalty": 1.1,
+  "final_process_seconds": 196.13155589997768,
+  "abandoned_attempts": [
+    {
+      "attempt": "sequential base, stopped for slow decoding",
+      "process_seconds": 387.5089298998937
+    },
+    {
+      "attempt": "batched base without word alignment, stopped for timestamp/repetition quality",
+      "process_seconds": 196.9630032000132
+    }
+  ],
+  "total_asr_process_seconds": 780.6034889998846,
+  "recognized_segment_seconds": 519.9299999999953,
+  "coverage_note": "Every source interval from 0 to 7293.062676 was processed in overlapping 300-second windows. VAD gaps are not transcribed; complete word-level recall is not claimed. Low-confidence text is explicitly prefixed in the Cutline transcript. English game dialogue and music can cause Korean hallucinations.",
+  "model_sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9",
+  "contiguous_processing_windows_verified": true
+}

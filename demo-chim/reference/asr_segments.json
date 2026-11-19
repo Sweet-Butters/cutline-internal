@@ -1,0 +1,1937 @@
+[
+  {
+    "start": 13.01,
+    "end": 24.74,
+    "text": "안녕하세요? 지금부터 마을스트로 진행해보도록 하겠습니다. 저의 지휴에 따라올 생각 있습니까? 자 준비되신 분들은 팔로웅이",
+    "avg_logprob": -0.4515222466743744,
+    "no_speech_prob": 0.08335748314857483,
+    "compression_ratio": 1.4038461538461537,
+    "mean_word_probability": 0.8133454956469081
+  },
+  {
+    "start": 25.5,
+    "end": 28.8,
+    "text": "사실 여기다가 하는 게 아닌데 이게",
+    "avg_logprob": -0.4515222466743744,
+    "no_speech_prob": 0.08335748314857483,
+    "compression_ratio": 1.4038461538461537,
+    "mean_word_probability": 0.7471569230159124
+  },
+  {
+    "start": 29.96,
+    "end": 35.74,
+    "text": "벌어져야 해서... 빙위빵맨님 이건 조회수에 미친 게 아니라 좋아서 하시는 거 맞죠? 잘하자!",
+    "avg_logprob": -0.4515222466743744,
+    "no_speech_prob": 0.08335748314857483,
+    "compression_ratio": 1.4038461538461537,
+    "mean_word_probability": 0.791507850918505
+  },
+  {
+    "start": 40.0,
+    "end": 42.24,
+    "text": "이 두... 자야겠다",
+    "avg_logprob": -0.4515222466743744,
+    "no_speech_prob": 0.08335748314857483,
+    "compression_ratio": 1.4038461538461537,
+    "mean_word_probability": 0.2318375644584497
+  },
+  {
+    "start": 43.46,
+    "end": 45.4,
+    "text": "자기...",
+    "avg_logprob": -0.4515222466743744,
+    "no_speech_prob": 0.08335748314857483,
+    "compression_ratio": 1.4038461538461537,
+    "mean_word_probability": 0.4312262535095215
+  },
+  {
+    "start": 46.87,
+    "end": 49.67,
+    "text": "자기 기분 내키는 대로만 한다? 침짜렷트!",
+    "avg_logprob": -0.4515222466743744,
+    "no_speech_prob": 0.08335748314857483,
+    "compression_ratio": 1.4038461538461537,
+    "mean_word_probability": 0.7414002814699733
+  },
+  {
+    "start": 51.4,
+    "end": 51.82,
+    "text": "항우",
+    "avg_logprob": -0.4515222466743744,
+    "no_speech_prob": 0.08335748314857483,
+    "compression_ratio": 1.4038461538461537,
+    "mean_word_probability": 0.6364310681819916
+  },
+  {
+    "start": 56.72,
+    "end": 68.59,
+    "text": "자기에게 이루어온 걸 한다 유방입니다 자 유방의 삶 지금부터 가도록 하겠습니다 따라오시죠 사실 게임을 안 해 봐",
+    "avg_logprob": -0.40067608867372784,
+    "no_speech_prob": 0.10798624902963638,
+    "compression_ratio": 1.4770992366412214,
+    "mean_word_probability": 0.7982212323184107
+  },
+  {
+    "start": 68.59,
+    "end": 70.83,
+    "text": "가지고 잘은 모르겠어요",
+    "avg_logprob": -0.40067608867372784,
+    "no_speech_prob": 0.10798624902963638,
+    "compression_ratio": 1.4770992366412214,
+    "mean_word_probability": 0.7656530241171519
+  },
+  {
+    "start": 72.2,
+    "end": 79.54,
+    "text": "보이스의 미친 남자 그 이름 충뉴방이라 하와 진영하도록 하겠습니다 아",
+    "avg_logprob": -0.40067608867372784,
+    "no_speech_prob": 0.10798624902963638,
+    "compression_ratio": 1.4770992366412214,
+    "mean_word_probability": 0.7332527538140615
+  },
+  {
+    "start": 81.65,
+    "end": 82.61,
+    "text": "이거 되게 재밌어?",
+    "avg_logprob": -0.40067608867372784,
+    "no_speech_prob": 0.10798624902963638,
+    "compression_ratio": 1.4770992366412214,
+    "mean_word_probability": 0.42013058066368103
+  },
+  {
+    "start": 84.76,
+    "end": 85.8,
+    "text": "진짜",
+    "avg_logprob": -0.40067608867372784,
+    "no_speech_prob": 0.10798624902963638,
+    "compression_ratio": 1.4770992366412214,
+    "mean_word_probability": 0.12422296404838562
+  },
+  {
+    "start": 86.83,
+    "end": 90.39,
+    "text": "세상에서 제일 예민한 미친 음악과 같은 키키키에요",
+    "avg_logprob": -0.40067608867372784,
+    "no_speech_prob": 0.10798624902963638,
+    "compression_ratio": 1.4770992366412214,
+    "mean_word_probability": 0.8785526837621415
+  },
+  {
+    "start": 90.72,
+    "end": 93.64,
+    "text": "구원감자인데 별로 재미도 없을 것 같은데 가도록 하겠습니다.",
+    "avg_logprob": -0.6466840715198726,
+    "no_speech_prob": 0.04315557703375816,
+    "compression_ratio": 1.489795918367347,
+    "mean_word_probability": 0.646677085198462
+  },
+  {
+    "start": 97.43,
+    "end": 98.53,
+    "text": "그럼 왜 말하는 거야?",
+    "avg_logprob": -0.6466840715198726,
+    "no_speech_prob": 0.04315557703375816,
+    "compression_ratio": 1.489795918367347,
+    "mean_word_probability": 0.507677037268877
+  },
+  {
+    "start": 100.39,
+    "end": 103.87,
+    "text": "사실 이게 저번 주에 하라고 했었죠?",
+    "avg_logprob": -0.6466840715198726,
+    "no_speech_prob": 0.04315557703375816,
+    "compression_ratio": 1.489795918367347,
+    "mean_word_probability": 0.9207472652196884
+  },
+  {
+    "start": 104.89,
+    "end": 111.41,
+    "text": "자 하기 싫어가지고 계속 안 했는데... 혹시",
+    "avg_logprob": -0.6466840715198726,
+    "no_speech_prob": 0.04315557703375816,
+    "compression_ratio": 1.489795918367347,
+    "mean_word_probability": 0.3775861596777325
+  },
+  {
+    "start": 112.98,
+    "end": 116.22,
+    "text": "뭐예요? 걔가 물어들던 거 같아. 자,",
+    "avg_logprob": -0.6466840715198726,
+    "no_speech_prob": 0.04315557703375816,
+    "compression_ratio": 1.489795918367347,
+    "mean_word_probability": 0.6876392722129822
+  },
+  {
+    "start": 117.59,
+    "end": 119.57,
+    "text": "하도록 하겠습니다 이거",
+    "avg_logprob": -0.6466840715198726,
+    "no_speech_prob": 0.04315557703375816,
+    "compression_ratio": 1.489795918367347,
+    "mean_word_probability": 0.5984768668810526
+  },
+  {
+    "start": 122.87,
+    "end": 125.25,
+    "text": "내려야 돼요? 아 내려야 되는구나 오케이.",
+    "avg_logprob": -0.6466840715198726,
+    "no_speech_prob": 0.04315557703375816,
+    "compression_ratio": 1.489795918367347,
+    "mean_word_probability": 0.5301114916801453
+  },
+  {
+    "start": 126.56,
+    "end": 127.72,
+    "text": "후원 감사합니다.",
+    "avg_logprob": -0.6466840715198726,
+    "no_speech_prob": 0.04315557703375816,
+    "compression_ratio": 1.489795918367347,
+    "mean_word_probability": 0.4205633755773306
+  },
+  {
+    "start": 139.14,
+    "end": 142.46,
+    "text": "자 하기를 싫어서 어제 할 절대 할 수 없는",
+    "avg_logprob": -0.6466840715198726,
+    "no_speech_prob": 0.04315557703375816,
+    "compression_ratio": 1.489795918367347,
+    "mean_word_probability": 0.6983575336376412
+  },
+  {
+    "start": 142.89,
+    "end": 147.47,
+    "text": "집방송까지 할 것만 더 먹을 수 없었습니다.",
+    "avg_logprob": -0.31897607575292175,
+    "no_speech_prob": 0.022332197055220604,
+    "compression_ratio": 1.4132231404958677,
+    "mean_word_probability": 0.7320199800389153
+  },
+  {
+    "start": 162.6,
+    "end": 174.59,
+    "text": "근데 제가 유튜브까지 하기 때문에 생방송이 터질 수가 있대요 그래서 안 터지는 노래 위주로 하도록 하겠습니다 티토리어를 좀",
+    "avg_logprob": -0.31897607575292175,
+    "no_speech_prob": 0.022332197055220604,
+    "compression_ratio": 1.4132231404958677,
+    "mean_word_probability": 0.8166935486925975
+  },
+  {
+    "start": 174.59,
+    "end": 177.23,
+    "text": "해볼게요 이게 좀 어렵다고 하는데 내가 할 수 있을까?",
+    "avg_logprob": -0.31897607575292175,
+    "no_speech_prob": 0.022332197055220604,
+    "compression_ratio": 1.4132231404958677,
+    "mean_word_probability": 0.8888337380356259
+  },
+  {
+    "start": 180.94,
+    "end": 181.04,
+    "text": "아,",
+    "avg_logprob": -0.31897607575292175,
+    "no_speech_prob": 0.022332197055220604,
+    "compression_ratio": 1.4132231404958677,
+    "mean_word_probability": 0.0821923315525055
+  },
+  {
+    "start": 185.52,
+    "end": 186.76,
+    "text": "티토를 어떻게 해야 하지",
+    "avg_logprob": -0.31897607575292175,
+    "no_speech_prob": 0.022332197055220604,
+    "compression_ratio": 1.4132231404958677,
+    "mean_word_probability": 0.39236341370269656
+  },
+  {
+    "start": 203.34,
+    "end": 206.38,
+    "text": "시원으로 난리로 바퀴나, 여기",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.2866761344795426
+  },
+  {
+    "start": 209.64,
+    "end": 211.18,
+    "text": "위에 튜토벼를 뵙겠습니다.",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.46334671530695193
+  },
+  {
+    "start": 215.36,
+    "end": 216.02,
+    "text": "알겠네요.",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.8725071549415588
+  },
+  {
+    "start": 224.28,
+    "end": 225.28,
+    "text": "튜",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.6011971458792686
+  },
+  {
+    "start": 231.1,
+    "end": 232.8,
+    "text": "톨열 어떻게",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.3002358643958966
+  },
+  {
+    "start": 248.42,
+    "end": 248.84,
+    "text": "하나가",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.6732664555311203
+  },
+  {
+    "start": 252.81,
+    "end": 254.91,
+    "text": "위아래로 천천히 움직이게?",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.8216450181272296
+  },
+  {
+    "start": 257.61,
+    "end": 262.34,
+    "text": "가로선에 도달하면 지이 봉으로 두드리세요. 이렇게? 누른 채로?",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.7504113842733204
+  },
+  {
+    "start": 268.93,
+    "end": 269.73,
+    "text": "땅땅!",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.804755175113678
+  },
+  {
+    "start": 276.48,
+    "end": 276.98,
+    "text": "당가?",
+    "avg_logprob": -0.7307841096605573,
+    "no_speech_prob": 0.08986955136060715,
+    "compression_ratio": 1.2596153846153846,
+    "mean_word_probability": 0.15209511667490005
+  },
+  {
+    "start": 302.05,
+    "end": 302.67,
+    "text": "된거야?",
+    "avg_logprob": -1.044503003358841,
+    "no_speech_prob": 0.07898212224245071,
+    "compression_ratio": 0.8333333333333334,
+    "mean_word_probability": 0.42948147654533386
+  },
+  {
+    "start": 305.16,
+    "end": 306.16,
+    "text": "박자감이 꽝이야?",
+    "avg_logprob": -1.044503003358841,
+    "no_speech_prob": 0.07898212224245071,
+    "compression_ratio": 0.8333333333333334,
+    "mean_word_probability": 0.49244300508871675
+  },
+  {
+    "start": 335.7,
+    "end": 341.86,
+    "text": "제가 해낸 시일 수 있도록 제가 좋겠습니다. 여기 안 박을, 헌이 되고 있던 것 같아요.",
+    "avg_logprob": -1.111982740023557,
+    "no_speech_prob": 0.07735127955675125,
+    "compression_ratio": 1.4075829383886256,
+    "mean_word_probability": 0.3771458958586057
+  },
+  {
+    "start": 344.26,
+    "end": 346.84000000000003,
+    "text": "감사합니다. 여러분은 여러분이...",
+    "avg_logprob": -1.111982740023557,
+    "no_speech_prob": 0.07735127955675125,
+    "compression_ratio": 1.4075829383886256,
+    "mean_word_probability": 0.10296716437571579
+  },
+  {
+    "start": 350.01,
+    "end": 357.79,
+    "text": "해보를 제대로 주는 지 봅시다. 가장 중요한 기술이니까요.",
+    "avg_logprob": -1.111982740023557,
+    "no_speech_prob": 0.07735127955675125,
+    "compression_ratio": 1.4075829383886256,
+    "mean_word_probability": 0.6159261602908372
+  },
+  {
+    "start": 359.63,
+    "end": 361.35,
+    "text": "보메지 전으로 시작해봅시다!",
+    "avg_logprob": -1.111982740023557,
+    "no_speech_prob": 0.07735127955675125,
+    "compression_ratio": 1.4075829383886256,
+    "mean_word_probability": 0.5813112509747346
+  },
+  {
+    "start": 368.98,
+    "end": 370.38,
+    "text": "아,",
+    "avg_logprob": -2.8799375534057616,
+    "no_speech_prob": 0.1332644820213318,
+    "compression_ratio": 0.625,
+    "mean_word_probability": 0.026519278064370155
+  },
+  {
+    "start": 398.39,
+    "end": 399.29,
+    "text": "진짜...",
+    "avg_logprob": -2.8799375534057616,
+    "no_speech_prob": 0.1332644820213318,
+    "compression_ratio": 0.625,
+    "mean_word_probability": 0.06015937961637974
+  },
+  {
+    "start": 401.74,
+    "end": 403.14,
+    "text": "알았어.",
+    "avg_logprob": -1.7036567687988282,
+    "no_speech_prob": 0.1343110352754593,
+    "compression_ratio": 0.6785714285714286,
+    "mean_word_probability": 0.23481544852256775
+  },
+  {
+    "start": 404.17,
+    "end": 404.97,
+    "text": "뭐야?",
+    "avg_logprob": -1.7036567687988282,
+    "no_speech_prob": 0.1343110352754593,
+    "compression_ratio": 0.6785714285714286,
+    "mean_word_probability": 0.07172567397356033
+  },
+  {
+    "start": 488.55,
+    "end": 499.81,
+    "text": "이 공격을 전자들에게 만드시기 위해, 그 전자들이 제자들에 대한 공격이 되었습니다. 아, 네, 네. 아! Please",
+    "avg_logprob": -1.376774926185608,
+    "no_speech_prob": 0.25226250290870667,
+    "compression_ratio": 1.2913385826771653,
+    "mean_word_probability": 0.18846277627744712
+  },
+  {
+    "start": 499.81,
+    "end": 500.66999999999996,
+    "text": "anticipate.",
+    "avg_logprob": -1.376774926185608,
+    "no_speech_prob": 0.25226250290870667,
+    "compression_ratio": 1.2913385826771653,
+    "mean_word_probability": 0.6755507588386536
+  },
+  {
+    "start": 505.90999999999997,
+    "end": 506.28999999999996,
+    "text": "뭐인데?",
+    "avg_logprob": -1.376774926185608,
+    "no_speech_prob": 0.25226250290870667,
+    "compression_ratio": 1.2913385826771653,
+    "mean_word_probability": 0.051976440474390984
+  },
+  {
+    "start": 508.85,
+    "end": 510.16999999999996,
+    "text": "아래, 위에서 아래로.",
+    "avg_logprob": -1.376774926185608,
+    "no_speech_prob": 0.25226250290870667,
+    "compression_ratio": 1.2913385826771653,
+    "mean_word_probability": 0.598386930508746
+  },
+  {
+    "start": 512.95,
+    "end": 514.53,
+    "text": "빰, 빰. Okay.",
+    "avg_logprob": -1.376774926185608,
+    "no_speech_prob": 0.25226250290870667,
+    "compression_ratio": 1.2913385826771653,
+    "mean_word_probability": 0.47978416333595914
+  },
+  {
+    "start": 516.8,
+    "end": 517.24,
+    "text": "다다,",
+    "avg_logprob": -1.376774926185608,
+    "no_speech_prob": 0.25226250290870667,
+    "compression_ratio": 1.2913385826771653,
+    "mean_word_probability": 0.18268734216690063
+  },
+  {
+    "start": 518.34,
+    "end": 522.34,
+    "text": "자, 자! Let's go! Let' speak it back up by 15, yes.",
+    "avg_logprob": -1.376774926185608,
+    "no_speech_prob": 0.25226250290870667,
+    "compression_ratio": 1.2913385826771653,
+    "mean_word_probability": 0.6264073876664042
+  },
+  {
+    "start": 523.46,
+    "end": 525.1,
+    "text": "Alright, let's hear it again.",
+    "avg_logprob": -1.376774926185608,
+    "no_speech_prob": 0.25226250290870667,
+    "compression_ratio": 1.2913385826771653,
+    "mean_word_probability": 0.7976646900177002
+  },
+  {
+    "start": 527.05,
+    "end": 527.99,
+    "text": "3, 4.",
+    "avg_logprob": -1.376774926185608,
+    "no_speech_prob": 0.25226250290870667,
+    "compression_ratio": 1.2913385826771653,
+    "mean_word_probability": 0.7960526347160339
+  },
+  {
+    "start": 587.88,
+    "end": 589.28,
+    "text": "시작!",
+    "avg_logprob": -2.4925440152486167,
+    "no_speech_prob": 0.11662708967924118,
+    "compression_ratio": 0.5,
+    "mean_word_probability": 0.009843569248914719
+  },
+  {
+    "start": 604.14,
+    "end": 606.44,
+    "text": "보여주지? 슈 사인?",
+    "avg_logprob": -1.505398336209749,
+    "no_speech_prob": 0.09117064625024796,
+    "compression_ratio": 0.9411764705882353,
+    "mean_word_probability": 0.42495558053875965
+  },
+  {
+    "start": 623.11,
+    "end": 624.51,
+    "text": "고마워.",
+    "avg_logprob": -1.505398336209749,
+    "no_speech_prob": 0.09117064625024796,
+    "compression_ratio": 0.9411764705882353,
+    "mean_word_probability": 0.20581254735589027
+  },
+  {
+    "start": 738.6800000000001,
+    "end": 738.9,
+    "text": "네,",
+    "avg_logprob": -2.167262171135574,
+    "no_speech_prob": 0.276723176240921,
+    "compression_ratio": 1.423841059602649,
+    "mean_word_probability": 0.05649062246084213
+  },
+  {
+    "start": 740.56,
+    "end": 746.26,
+    "text": "우리 시원한 시원을 우리 카운트에서 사회가 되었고, 우리 가야합니다.",
+    "avg_logprob": -2.167262171135574,
+    "no_speech_prob": 0.276723176240921,
+    "compression_ratio": 1.423841059602649,
+    "mean_word_probability": 0.13153797094882635
+  },
+  {
+    "start": 749.65,
+    "end": 752.87,
+    "text": "네, 우리 칸은. 네.",
+    "avg_logprob": -2.167262171135574,
+    "no_speech_prob": 0.276723176240921,
+    "compression_ratio": 1.423841059602649,
+    "mean_word_probability": 0.17483715668398267
+  },
+  {
+    "start": 758.8,
+    "end": 758.92,
+    "text": "네.",
+    "avg_logprob": -2.167262171135574,
+    "no_speech_prob": 0.276723176240921,
+    "compression_ratio": 1.423841059602649,
+    "mean_word_probability": 0.11647827178239822
+  },
+  {
+    "start": 797.62,
+    "end": 801.12,
+    "text": "이 사람은 맨날 사라야겠네?",
+    "avg_logprob": -0.9274246563782563,
+    "no_speech_prob": 0.022019606083631516,
+    "compression_ratio": 0.9904761904761905,
+    "mean_word_probability": 0.3079526022076607
+  },
+  {
+    "start": 813.21,
+    "end": 814.91,
+    "text": "타이 머신을 타고, 탁",
+    "avg_logprob": -0.9274246563782563,
+    "no_speech_prob": 0.022019606083631516,
+    "compression_ratio": 0.9904761904761905,
+    "mean_word_probability": 0.7327814288437366
+  },
+  {
+    "start": 824.0,
+    "end": 824.34,
+    "text": "줄어?",
+    "avg_logprob": -0.9274246563782563,
+    "no_speech_prob": 0.022019606083631516,
+    "compression_ratio": 0.9904761904761905,
+    "mean_word_probability": 0.36071594059467316
+  },
+  {
+    "start": 859.5799999999999,
+    "end": 861.0799999999999,
+    "text": "누우는 건가?",
+    "avg_logprob": -0.9274246563782563,
+    "no_speech_prob": 0.022019606083631516,
+    "compression_ratio": 0.9904761904761905,
+    "mean_word_probability": 0.6711097732186317
+  },
+  {
+    "start": 865.63,
+    "end": 866.85,
+    "text": "대단해!",
+    "avg_logprob": -0.9274246563782563,
+    "no_speech_prob": 0.022019606083631516,
+    "compression_ratio": 0.9904761904761905,
+    "mean_word_probability": 0.4746912146608035
+  },
+  {
+    "start": 881.35,
+    "end": 887.5899999999999,
+    "text": "아, 뼈다가 안 해먹는다. 뼈뚜게. 짐는 게 아니구나?",
+    "avg_logprob": -0.7421002768455668,
+    "no_speech_prob": 0.0989886000752449,
+    "compression_ratio": 1.1594202898550725,
+    "mean_word_probability": 0.47101766748043394
+  },
+  {
+    "start": 889.97,
+    "end": 893.13,
+    "text": "이렇게 하다가 빵. 오케이, 알겠어요? 빵, 빵!",
+    "avg_logprob": -0.7421002768455668,
+    "no_speech_prob": 0.0989886000752449,
+    "compression_ratio": 1.1594202898550725,
+    "mean_word_probability": 0.7066323416573661
+  },
+  {
+    "start": 897.1,
+    "end": 899.38,
+    "text": "죄송해요. 죄송합니다.",
+    "avg_logprob": -0.7421002768455668,
+    "no_speech_prob": 0.0989886000752449,
+    "compression_ratio": 1.1594202898550725,
+    "mean_word_probability": 0.9925510585308075
+  },
+  {
+    "start": 938.16,
+    "end": 942.26,
+    "text": "죄송합니다. 자고는.. 눌러야 돼?",
+    "avg_logprob": -0.7408707957518729,
+    "no_speech_prob": 0.010375128127634525,
+    "compression_ratio": 0.9696969696969697,
+    "mean_word_probability": 0.7555922144092619
+  },
+  {
+    "start": 947.32,
+    "end": 949.14,
+    "text": "죄송, 죄송",
+    "avg_logprob": -0.7408707957518729,
+    "no_speech_prob": 0.010375128127634525,
+    "compression_ratio": 0.9696969696969697,
+    "mean_word_probability": 0.7129211723804474
+  },
+  {
+    "start": 955.23,
+    "end": 956.87,
+    "text": "재탈.. 오케이",
+    "avg_logprob": -0.93616524040699,
+    "no_speech_prob": 0.046470098197460175,
+    "compression_ratio": 0.9411764705882353,
+    "mean_word_probability": 0.18214931711554527
+  },
+  {
+    "start": 959.36,
+    "end": 960.54,
+    "text": "재탈�.",
+    "avg_logprob": -0.93616524040699,
+    "no_speech_prob": 0.046470098197460175,
+    "compression_ratio": 0.9411764705882353,
+    "mean_word_probability": 0.5049620297116538
+  },
+  {
+    "start": 964.58,
+    "end": 966.22,
+    "text": "꽉 진다는 게 재태리구나",
+    "avg_logprob": -0.93616524040699,
+    "no_speech_prob": 0.046470098197460175,
+    "compression_ratio": 0.9411764705882353,
+    "mean_word_probability": 0.736174531839788
+  },
+  {
+    "start": 1001.52,
+    "end": 1013.36,
+    "text": "홈가 latest trend beat, trend that is real when I'm on the scene The rest doesn't matter. I can set myself free. Downs with me at the bottom right, that ain't like face When i'm running a mic, im",
+    "avg_logprob": -0.7042566262758695,
+    "no_speech_prob": 0.4724779427051544,
+    "compression_ratio": 1.6168831168831168,
+    "mean_word_probability": 0.5592037577532295
+  },
+  {
+    "start": 1013.36,
+    "end": 1015.06,
+    "text": "holding it tight Can't",
+    "avg_logprob": -0.7042566262758695,
+    "no_speech_prob": 0.4724779427051544,
+    "compression_ratio": 1.6168831168831168,
+    "mean_word_probability": 0.7368688695132732
+  },
+  {
+    "start": 1016.31,
+    "end": 1028.26,
+    "text": "see myself being the type No matter what they keep on hating Cause in hell then i sound ill And i get down still Now they run downhill, The lady might as put your energy down Well but but But never",
+    "avg_logprob": -0.7042566262758695,
+    "no_speech_prob": 0.4724779427051544,
+    "compression_ratio": 1.6168831168831168,
+    "mean_word_probability": 0.6330698163407605
+  },
+  {
+    "start": 1028.26,
+    "end": 1031.46,
+    "text": "been on end of this round I'm not pushing up my focus when I know",
+    "avg_logprob": -0.7042566262758695,
+    "no_speech_prob": 0.4724779427051544,
+    "compression_ratio": 1.6168831168831168,
+    "mean_word_probability": 0.6283708081270257
+  },
+  {
+    "start": 1058.08,
+    "end": 1060.38,
+    "text": "자, 들어와! 들어있어?",
+    "avg_logprob": -0.49645795226097106,
+    "no_speech_prob": 0.03460146114230156,
+    "compression_ratio": 0.9375,
+    "mean_word_probability": 0.5990237146615982
+  },
+  {
+    "start": 1062.56,
+    "end": 1065.1,
+    "text": "헤르마타? 아, 트레스티. 뭉크 마다!",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.3262177312374115
+  },
+  {
+    "start": 1072.77,
+    "end": 1074.23,
+    "text": "헤류마타 뭔데?",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.8010410429172528
+  },
+  {
+    "start": 1081.3600000000001,
+    "end": 1082.52,
+    "text": "크리센트로 실험하세요.",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.6569100514054298
+  },
+  {
+    "start": 1089.16,
+    "end": 1090.46,
+    "text": "울리고 데리고.",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.757596438129743
+  },
+  {
+    "start": 1099.47,
+    "end": 1100.51,
+    "text": "나한테",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.23534651845693588
+  },
+  {
+    "start": 1114.1399999999999,
+    "end": 1115.68,
+    "text": "천천히 올려야 되나?",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.7383668041891522
+  },
+  {
+    "start": 1162.26,
+    "end": 1162.46,
+    "text": "오케이.",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.7794945240020752
+  },
+  {
+    "start": 1167.22,
+    "end": 1171.71,
+    "text": "다 거야",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.32114844769239426
+  },
+  {
+    "start": 1174.72,
+    "end": 1174.94,
+    "text": "이제?",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.15919719636440277
+  },
+  {
+    "start": 1176.67,
+    "end": 1177.31,
+    "text": "다 배웠어?",
+    "avg_logprob": -0.7073368089539664,
+    "no_speech_prob": 0.035078175365924835,
+    "compression_ratio": 1.242603550295858,
+    "mean_word_probability": 0.9700696070988972
+  },
+  {
+    "start": 1184.92,
+    "end": 1185.62,
+    "text": "자, 이제 한 번",
+    "avg_logprob": -1.1502937475840251,
+    "no_speech_prob": 0.207623690366745,
+    "compression_ratio": 0.6896551724137931,
+    "mean_word_probability": 0.33568811416625977
+  },
+  {
+    "start": 1458.98,
+    "end": 1459.44,
+    "text": "이거 보?",
+    "avg_logprob": -0.6805908679962158,
+    "no_speech_prob": 0.12117787450551987,
+    "compression_ratio": 1.0588235294117647,
+    "mean_word_probability": 0.15441241301596165
+  },
+  {
+    "start": 1471.5,
+    "end": 1473.48,
+    "text": "풍장함의 향기! 옹치죠?",
+    "avg_logprob": -0.6805908679962158,
+    "no_speech_prob": 0.12117787450551987,
+    "compression_ratio": 1.0588235294117647,
+    "mean_word_probability": 0.6809308429559072
+  },
+  {
+    "start": 1491.1100000000001,
+    "end": 1493.1100000000001,
+    "text": "이거를 그냥 다 올려주시는 게 알 것 같은데?",
+    "avg_logprob": -0.6805908679962158,
+    "no_speech_prob": 0.12117787450551987,
+    "compression_ratio": 1.0588235294117647,
+    "mean_word_probability": 0.6978804552927613
+  },
+  {
+    "start": 1494.28,
+    "end": 1495.76,
+    "text": "화면을 잘 안 보여.",
+    "avg_logprob": -0.6805908679962158,
+    "no_speech_prob": 0.12117787450551987,
+    "compression_ratio": 1.0588235294117647,
+    "mean_word_probability": 0.694726575165987
+  },
+  {
+    "start": 1499.07,
+    "end": 1499.59,
+    "text": "봐봐",
+    "avg_logprob": -0.6805908679962158,
+    "no_speech_prob": 0.12117787450551987,
+    "compression_ratio": 1.0588235294117647,
+    "mean_word_probability": 0.5780016034841537
+  },
+  {
+    "start": 1507.83,
+    "end": 1512.85,
+    "text": "고통",
+    "avg_logprob": -0.5887868517921084,
+    "no_speech_prob": 0.04899295046925545,
+    "compression_ratio": 1.2137931034482758,
+    "mean_word_probability": 0.31014931574463844
+  },
+  {
+    "start": 1525.55,
+    "end": 1526.05,
+    "text": "가겠습니다.",
+    "avg_logprob": -0.5887868517921084,
+    "no_speech_prob": 0.04899295046925545,
+    "compression_ratio": 1.2137931034482758,
+    "mean_word_probability": 0.6858311742544174
+  },
+  {
+    "start": 1533.87,
+    "end": 1538.75,
+    "text": "보통도 쉽지",
+    "avg_logprob": -0.5887868517921084,
+    "no_speech_prob": 0.04899295046925545,
+    "compression_ratio": 1.2137931034482758,
+    "mean_word_probability": 0.8016977682709694
+  },
+  {
+    "start": 1545.31,
+    "end": 1546.05,
+    "text": "않음?",
+    "avg_logprob": -0.5887868517921084,
+    "no_speech_prob": 0.04899295046925545,
+    "compression_ratio": 1.2137931034482758,
+    "mean_word_probability": 0.5574335753917694
+  },
+  {
+    "start": 1549.76,
+    "end": 1556.03,
+    "text": "반갑습니다 여러분들 첫 공개는요 어서오세요 어서 오세요",
+    "avg_logprob": -0.5887868517921084,
+    "no_speech_prob": 0.04899295046925545,
+    "compression_ratio": 1.2137931034482758,
+    "mean_word_probability": 0.6640727870343698
+  },
+  {
+    "start": 1568.99,
+    "end": 1570.57,
+    "text": "아피",
+    "avg_logprob": -0.5887868517921084,
+    "no_speech_prob": 0.04899295046925545,
+    "compression_ratio": 1.2137931034482758,
+    "mean_word_probability": 0.4339132457971573
+  },
+  {
+    "start": 1629.54,
+    "end": 1630.54,
+    "text": "점도 안 보이기 시작해요",
+    "avg_logprob": -0.5887868517921084,
+    "no_speech_prob": 0.04899295046925545,
+    "compression_ratio": 1.2137931034482758,
+    "mean_word_probability": 0.7132128141820431
+  },
+  {
+    "start": 1896.58,
+    "end": 1897.54,
+    "text": "감사합니다.",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.7868295907974243
+  },
+  {
+    "start": 1903.88,
+    "end": 1904.5,
+    "text": "결렬죠?",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.388324636220932
+  },
+  {
+    "start": 1905.94,
+    "end": 1907.16,
+    "text": "어려운 도전하겠습니다.",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.8612374017635982
+  },
+  {
+    "start": 1909.14,
+    "end": 1909.84,
+    "text": "안 되겠구만.",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.7017273046076298
+  },
+  {
+    "start": 1927.75,
+    "end": 1928.37,
+    "text": "뭐야 이거 한?",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.5853681713342667
+  },
+  {
+    "start": 1940.17,
+    "end": 1940.85,
+    "text": "어려움을 갑니다.",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.588892606087029
+  },
+  {
+    "start": 1945.28,
+    "end": 1946.3600000000001,
+    "text": "수고하셨습니다.",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.7250589668750763
+  },
+  {
+    "start": 1950.73,
+    "end": 1951.93,
+    "text": "자,",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.08223789185285568
+  },
+  {
+    "start": 1964.05,
+    "end": 1964.17,
+    "text": "가자.",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.7250288724899292
+  },
+  {
+    "start": 1974.47,
+    "end": 1975.97,
+    "text": "어려워 보입니다.",
+    "avg_logprob": -0.6435934767431143,
+    "no_speech_prob": 0.16914571821689606,
+    "compression_ratio": 1.3916083916083917,
+    "mean_word_probability": 0.6285957296689351
+  },
+  {
+    "start": 2086.33,
+    "end": 2089.39,
+    "text": "근데 어떤 색이자 암바트로스 데려오고 지란이야",
+    "avg_logprob": -0.6745856184708444,
+    "no_speech_prob": 0.3756658732891083,
+    "compression_ratio": 0.8571428571428571,
+    "mean_word_probability": 0.5538844306849772
+  },
+  {
+    "start": 2150.08,
+    "end": 2152.24,
+    "text": "여기 나가줘 감사합니다",
+    "avg_logprob": -0.5533578609808897,
+    "no_speech_prob": 0.08326143026351929,
+    "compression_ratio": 1.2808219178082192,
+    "mean_word_probability": 0.3298165549834569
+  },
+  {
+    "start": 2184.14,
+    "end": 2185.36,
+    "text": "너무",
+    "avg_logprob": -0.5533578609808897,
+    "no_speech_prob": 0.08326143026351929,
+    "compression_ratio": 1.2808219178082192,
+    "mean_word_probability": 0.19910649955272675
+  },
+  {
+    "start": 2197.24,
+    "end": 2198.14,
+    "text": "더워",
+    "avg_logprob": -0.5533578609808897,
+    "no_speech_prob": 0.08326143026351929,
+    "compression_ratio": 1.2808219178082192,
+    "mean_word_probability": 0.8910321295261383
+  },
+  {
+    "start": 2208.6,
+    "end": 2210.08,
+    "text": "다음 곡 보도록 하겠습니다",
+    "avg_logprob": -0.5533578609808897,
+    "no_speech_prob": 0.08326143026351929,
+    "compression_ratio": 1.2808219178082192,
+    "mean_word_probability": 0.745363175868988
+  },
+  {
+    "start": 2216.42,
+    "end": 2219.91,
+    "text": "고맙습니다 마카롱",
+    "avg_logprob": -0.5533578609808897,
+    "no_speech_prob": 0.08326143026351929,
+    "compression_ratio": 1.2808219178082192,
+    "mean_word_probability": 0.8435051441192627
+  },
+  {
+    "start": 2226.21,
+    "end": 2228.57,
+    "text": "전문가하겠습니다",
+    "avg_logprob": -0.5533578609808897,
+    "no_speech_prob": 0.08326143026351929,
+    "compression_ratio": 1.2808219178082192,
+    "mean_word_probability": 0.8061635792255402
+  },
+  {
+    "start": 2237.37,
+    "end": 2241.57,
+    "text": "실루 플랫 가겠습니다",
+    "avg_logprob": -0.5533578609808897,
+    "no_speech_prob": 0.08326143026351929,
+    "compression_ratio": 1.2808219178082192,
+    "mean_word_probability": 0.39170027524232864
+  },
+  {
+    "start": 2269.41,
+    "end": 2270.85,
+    "text": "몇점이야?",
+    "avg_logprob": -0.5533578609808897,
+    "no_speech_prob": 0.08326143026351929,
+    "compression_ratio": 1.2808219178082192,
+    "mean_word_probability": 0.8476947943369547
+  },
+  {
+    "start": 2384.31,
+    "end": 2384.65,
+    "text": "빵점?",
+    "avg_logprob": -0.5533578609808897,
+    "no_speech_prob": 0.08326143026351929,
+    "compression_ratio": 1.2808219178082192,
+    "mean_word_probability": 0.7065731585025787
+  },
+  {
+    "start": 2402.78,
+    "end": 2406.63,
+    "text": "알았어 어려움을 가자",
+    "avg_logprob": -0.6366865775164436,
+    "no_speech_prob": 0.008418753743171692,
+    "compression_ratio": 1.1007751937984496,
+    "mean_word_probability": 0.6290892536441485
+  },
+  {
+    "start": 2434.63,
+    "end": 2443.21,
+    "text": "열받네",
+    "avg_logprob": -0.6366865775164436,
+    "no_speech_prob": 0.008418753743171692,
+    "compression_ratio": 1.1007751937984496,
+    "mean_word_probability": 0.720771512016654
+  },
+  {
+    "start": 2527.4,
+    "end": 2528.38,
+    "text": "근데",
+    "avg_logprob": -0.6366865775164436,
+    "no_speech_prob": 0.008418753743171692,
+    "compression_ratio": 1.1007751937984496,
+    "mean_word_probability": 0.31610459089279175
+  },
+  {
+    "start": 2539.16,
+    "end": 2541.54,
+    "text": "보상을 주는데요 오케이",
+    "avg_logprob": -0.6366865775164436,
+    "no_speech_prob": 0.008418753743171692,
+    "compression_ratio": 1.1007751937984496,
+    "mean_word_probability": 0.5923564351267285
+  },
+  {
+    "start": 2561.67,
+    "end": 2572.65,
+    "text": "보통 음뢰는",
+    "avg_logprob": -0.6366865775164436,
+    "no_speech_prob": 0.008418753743171692,
+    "compression_ratio": 1.1007751937984496,
+    "mean_word_probability": 0.5627040773630142
+  },
+  {
+    "start": 2580.36,
+    "end": 2581.0,
+    "text": "아니도록 하세요?",
+    "avg_logprob": -0.6366865775164436,
+    "no_speech_prob": 0.008418753743171692,
+    "compression_ratio": 1.1007751937984496,
+    "mean_word_probability": 0.6017622351646423
+  },
+  {
+    "start": 2582.78,
+    "end": 2583.68,
+    "text": "형기증 나 지금",
+    "avg_logprob": -0.6366865775164436,
+    "no_speech_prob": 0.008418753743171692,
+    "compression_ratio": 1.1007751937984496,
+    "mean_word_probability": 0.8175644609663221
+  },
+  {
+    "start": 2800.03,
+    "end": 2800.43,
+    "text": "감사합니다.",
+    "avg_logprob": -0.58275548948182,
+    "no_speech_prob": 0.20890069007873535,
+    "compression_ratio": 1.171641791044776,
+    "mean_word_probability": 0.6245964765548706
+  },
+  {
+    "start": 2807.64,
+    "end": 2810.7,
+    "text": "보통으로의 그나마 단백체 다른",
+    "avg_logprob": -0.58275548948182,
+    "no_speech_prob": 0.20890069007873535,
+    "compression_ratio": 1.171641791044776,
+    "mean_word_probability": 0.49883626929173863
+  },
+  {
+    "start": 2838.12,
+    "end": 2839.6,
+    "text": "사람들은 어려움했어요?",
+    "avg_logprob": -0.58275548948182,
+    "no_speech_prob": 0.20890069007873535,
+    "compression_ratio": 1.171641791044776,
+    "mean_word_probability": 0.811765472094218
+  },
+  {
+    "start": 2851.8,
+    "end": 2853.68,
+    "text": "어려움이 재미있음?",
+    "avg_logprob": -0.58275548948182,
+    "no_speech_prob": 0.20890069007873535,
+    "compression_ratio": 1.171641791044776,
+    "mean_word_probability": 0.7168624723951023
+  },
+  {
+    "start": 2876.02,
+    "end": 2878.14,
+    "text": "난이 스프님 홈 감사합니다",
+    "avg_logprob": -0.58275548948182,
+    "no_speech_prob": 0.20890069007873535,
+    "compression_ratio": 1.171641791044776,
+    "mean_word_probability": 0.4996461234986782
+  },
+  {
+    "start": 3077.15,
+    "end": 3078.61,
+    "text": "이거 왜 자꾸 주는거야? 필요도 없는데",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.7274464095632235
+  },
+  {
+    "start": 3095.51,
+    "end": 3098.01,
+    "text": "어려운 겁니다 아",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.5922722816467285
+  },
+  {
+    "start": 3107.38,
+    "end": 3110.58,
+    "text": "이거 그거에요? 징겨 거예요? 안 되는 거 아니야?",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.7028999825318654
+  },
+  {
+    "start": 3113.7,
+    "end": 3114.62,
+    "text": "해도 되나?",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.7698111981153488
+  },
+  {
+    "start": 3128.54,
+    "end": 3130.94,
+    "text": "그냥 걸린데요? 뒤로 가",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.5076133161783218
+  },
+  {
+    "start": 3156.09,
+    "end": 3159.41,
+    "text": "형기 찍나 아 나 죽어!",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.5594404950737953
+  },
+  {
+    "start": 3186.25,
+    "end": 3187.43,
+    "text": "마운트넘 킹!",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.5540170982480049
+  },
+  {
+    "start": 3202.52,
+    "end": 3203.2,
+    "text": "합시다!",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.6601755619049072
+  },
+  {
+    "start": 3224.9,
+    "end": 3227.38,
+    "text": "줄어소니기 왔다 이거",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.4764629072613186
+  },
+  {
+    "start": 3246.55,
+    "end": 3248.11,
+    "text": "어떡해? 내려가는 건가?",
+    "avg_logprob": -0.5562814489195619,
+    "no_speech_prob": 0.08467837423086166,
+    "compression_ratio": 1.4045454545454545,
+    "mean_word_probability": 0.8488207260767618
+  },
+  {
+    "start": 3398.18,
+    "end": 3399.6,
+    "text": "사이드에서 맞춰서",
+    "avg_logprob": -0.5762748303620712,
+    "no_speech_prob": 0.07011868804693222,
+    "compression_ratio": 1.3227513227513228,
+    "mean_word_probability": 0.6373035510381062
+  },
+  {
+    "start": 3405.2,
+    "end": 3407.86,
+    "text": "사이드에 맞춰 서 이게 안 맞네",
+    "avg_logprob": -0.5762748303620712,
+    "no_speech_prob": 0.07011868804693222,
+    "compression_ratio": 1.3227513227513228,
+    "mean_word_probability": 0.5714553807386741
+  },
+  {
+    "start": 3511.58,
+    "end": 3513.38,
+    "text": "여기 뒤집는거야?",
+    "avg_logprob": -0.5762748303620712,
+    "no_speech_prob": 0.07011868804693222,
+    "compression_ratio": 1.3227513227513228,
+    "mean_word_probability": 0.33531997818499804
+  },
+  {
+    "start": 3517.11,
+    "end": 3518.03,
+    "text": "하할라 어떻게 뒤집어?",
+    "avg_logprob": -0.5762748303620712,
+    "no_speech_prob": 0.07011868804693222,
+    "compression_ratio": 1.3227513227513228,
+    "mean_word_probability": 0.539260102642907
+  },
+  {
+    "start": 3520.34,
+    "end": 3521.02,
+    "text": "이렇게?",
+    "avg_logprob": -0.5762748303620712,
+    "no_speech_prob": 0.07011868804693222,
+    "compression_ratio": 1.3227513227513228,
+    "mean_word_probability": 0.6318404674530029
+  },
+  {
+    "start": 3551.25,
+    "end": 3554.91,
+    "text": "자꾸 저거 토마트는 왜 줘요? 나 싫은데? 가자",
+    "avg_logprob": -0.5762748303620712,
+    "no_speech_prob": 0.07011868804693222,
+    "compression_ratio": 1.3227513227513228,
+    "mean_word_probability": 0.7525933533906937
+  },
+  {
+    "start": 3559.17,
+    "end": 3564.29,
+    "text": "리트 광객들이",
+    "avg_logprob": -0.5762748303620712,
+    "no_speech_prob": 0.07011868804693222,
+    "compression_ratio": 1.3227513227513228,
+    "mean_word_probability": 0.584718719124794
+  },
+  {
+    "start": 3573.2200000000003,
+    "end": 3574.88,
+    "text": "던진거임? 외던져?",
+    "avg_logprob": -0.5762748303620712,
+    "no_speech_prob": 0.07011868804693222,
+    "compression_ratio": 1.3227513227513228,
+    "mean_word_probability": 0.6814489647746086
+  },
+  {
+    "start": 3587.01,
+    "end": 3587.79,
+    "text": "가라고",
+    "avg_logprob": -0.5762748303620712,
+    "no_speech_prob": 0.07011868804693222,
+    "compression_ratio": 1.3227513227513228,
+    "mean_word_probability": 0.6027189642190933
+  },
+  {
+    "start": 3609.18,
+    "end": 3609.94,
+    "text": "안 돼, 근데?",
+    "avg_logprob": -0.45595033801331813,
+    "no_speech_prob": 0.03711964935064316,
+    "compression_ratio": 1.1923076923076923,
+    "mean_word_probability": 0.3447891374429067
+  },
+  {
+    "start": 3685.53,
+    "end": 3687.45,
+    "text": "뒤집고 내리는 거 아니야. 아, 이렇게 내리라고.",
+    "avg_logprob": -0.45595033801331813,
+    "no_speech_prob": 0.03711964935064316,
+    "compression_ratio": 1.1923076923076923,
+    "mean_word_probability": 0.7080798645814259
+  },
+  {
+    "start": 3692.76,
+    "end": 3694.76,
+    "text": "내린 상태를 이제...",
+    "avg_logprob": -0.45595033801331813,
+    "no_speech_prob": 0.03711964935064316,
+    "compression_ratio": 1.1923076923076923,
+    "mean_word_probability": 0.7599696893658904
+  },
+  {
+    "start": 3700.84,
+    "end": 3701.98,
+    "text": "뒤집구 내려야 되나?",
+    "avg_logprob": -0.45595033801331813,
+    "no_speech_prob": 0.03711964935064316,
+    "compression_ratio": 1.1923076923076923,
+    "mean_word_probability": 0.7735131727660902
+  },
+  {
+    "start": 3704.83,
+    "end": 3706.33,
+    "text": "아주 토마토 그만 좋아!",
+    "avg_logprob": -0.45595033801331813,
+    "no_speech_prob": 0.03711964935064316,
+    "compression_ratio": 1.1923076923076923,
+    "mean_word_probability": 0.6959935650229454
+  },
+  {
+    "start": 3713.39,
+    "end": 3714.09,
+    "text": "한위에 성공!",
+    "avg_logprob": -0.45595033801331813,
+    "no_speech_prob": 0.03711964935064316,
+    "compression_ratio": 1.1923076923076923,
+    "mean_word_probability": 0.4843326658010483
+  },
+  {
+    "start": 4137.34,
+    "end": 4138.84,
+    "text": "후원 검사에 나가",
+    "avg_logprob": -1.5311153616224016,
+    "no_speech_prob": 0.3609722852706909,
+    "compression_ratio": 0.6857142857142857,
+    "mean_word_probability": 0.29174536632166964
+  },
+  {
+    "start": 4439.2,
+    "end": 4440.08,
+    "text": "감사합니다",
+    "avg_logprob": -0.5736056258601527,
+    "no_speech_prob": 0.10066818445920944,
+    "compression_ratio": 1.08,
+    "mean_word_probability": 0.1024421975016594
+  },
+  {
+    "start": 4445.39,
+    "end": 4447.13,
+    "text": "마카롱은 왜 자꾸 지는거야?",
+    "avg_logprob": -0.5736056258601527,
+    "no_speech_prob": 0.10066818445920944,
+    "compression_ratio": 1.08,
+    "mean_word_probability": 0.7191709781686465
+  },
+  {
+    "start": 4451.32,
+    "end": 4453.08,
+    "text": "필요한 번 갔어.",
+    "avg_logprob": -0.5736056258601527,
+    "no_speech_prob": 0.10066818445920944,
+    "compression_ratio": 1.08,
+    "mean_word_probability": 0.4881466676791509
+  },
+  {
+    "start": 4485.01,
+    "end": 4487.73,
+    "text": "고맙습니다 제 공연에 와주셔서 감사합니다",
+    "avg_logprob": -0.5736056258601527,
+    "no_speech_prob": 0.10066818445920944,
+    "compression_ratio": 1.08,
+    "mean_word_probability": 0.7698998472342888
+  },
+  {
+    "start": 4506.02,
+    "end": 4508.16,
+    "text": "어서오십시오. 반갑습니다.",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.8121753074228764
+  },
+  {
+    "start": 4511.1,
+    "end": 4512.2,
+    "text": "자, 앉으시고",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.7920738259951274
+  },
+  {
+    "start": 4513.58,
+    "end": 4516.4,
+    "text": "화성입니다. 준비되셨죠?",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.8597892085711161
+  },
+  {
+    "start": 4521.02,
+    "end": 4521.68,
+    "text": "이거 안 돼.",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.7066961328188578
+  },
+  {
+    "start": 4529.79,
+    "end": 4530.77,
+    "text": "아까 했던 거 아닌가요?",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.9175534099340439
+  },
+  {
+    "start": 4609.33,
+    "end": 4610.51,
+    "text": "어서",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.9625275433063507
+  },
+  {
+    "start": 4653.48,
+    "end": 4653.94,
+    "text": "오십시요.",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.50917205150472
+  },
+  {
+    "start": 4659.86,
+    "end": 4660.8,
+    "text": "어서 올십시 요.",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.46674688293650335
+  },
+  {
+    "start": 4663.72,
+    "end": 4667.62,
+    "text": "제 공연에 오신 것을 환영합니다.",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.958992346127828
+  },
+  {
+    "start": 4669.37,
+    "end": 4672.07,
+    "text": "자리에 착석해주시고요. 가겠습니다.",
+    "avg_logprob": -0.30197895902234156,
+    "no_speech_prob": 0.19544944167137146,
+    "compression_ratio": 1.4550264550264551,
+    "mean_word_probability": 0.7727352360884349
+  },
+  {
+    "start": 4734.08,
+    "end": 4735.3,
+    "text": "항상 끝났어 다 꺼져!",
+    "avg_logprob": -0.609282756393606,
+    "no_speech_prob": 0.01214519888162613,
+    "compression_ratio": 1.3707865168539326,
+    "mean_word_probability": 0.6420545739432176
+  },
+  {
+    "start": 4737.27,
+    "end": 4737.91,
+    "text": "꺼라지라고!",
+    "avg_logprob": -0.609282756393606,
+    "no_speech_prob": 0.01214519888162613,
+    "compression_ratio": 1.3707865168539326,
+    "mean_word_probability": 0.5916675657033921
+  },
+  {
+    "start": 4743.9,
+    "end": 4744.74,
+    "text": "보통이나 하셔?",
+    "avg_logprob": -0.609282756393606,
+    "no_speech_prob": 0.01214519888162613,
+    "compression_ratio": 1.3707865168539326,
+    "mean_word_probability": 0.7829857170581818
+  },
+  {
+    "start": 4746.38,
+    "end": 4751.27,
+    "text": "내가 내가 보통을 할 것 같아? 내가 어려운 맵을 봤는데 보통을할 것 같아.",
+    "avg_logprob": -0.609282756393606,
+    "no_speech_prob": 0.01214519888162613,
+    "compression_ratio": 1.3707865168539326,
+    "mean_word_probability": 0.7770446669310331
+  },
+  {
+    "start": 4756.89,
+    "end": 4759.37,
+    "text": "투마저도 다 떨어졌어. 그럼 시금스타.",
+    "avg_logprob": -0.609282756393606,
+    "no_speech_prob": 0.01214519888162613,
+    "compression_ratio": 1.3707865168539326,
+    "mean_word_probability": 0.5440644073486328
+  },
+  {
+    "start": 4781.83,
+    "end": 4783.37,
+    "text": "마 넣어야 돼 삐야!",
+    "avg_logprob": -0.609282756393606,
+    "no_speech_prob": 0.01214519888162613,
+    "compression_ratio": 1.3707865168539326,
+    "mean_word_probability": 0.46824901923537254
+  },
+  {
+    "start": 5080.74,
+    "end": 5082.2,
+    "text": "감사합니다 나는",
+    "avg_logprob": -0.515403854219537,
+    "no_speech_prob": 0.16817550361156464,
+    "compression_ratio": 1.12,
+    "mean_word_probability": 0.6716890335083008
+  },
+  {
+    "start": 5086.48,
+    "end": 5089.34,
+    "text": "보통이 딱인 것 같아요. 보통 하겠습니다.",
+    "avg_logprob": -0.515403854219537,
+    "no_speech_prob": 0.16817550361156464,
+    "compression_ratio": 1.12,
+    "mean_word_probability": 0.7371192226807276
+  },
+  {
+    "start": 5090.54,
+    "end": 5092.12,
+    "text": "저 지금부터 보통합니다",
+    "avg_logprob": -0.515403854219537,
+    "no_speech_prob": 0.16817550361156464,
+    "compression_ratio": 1.12,
+    "mean_word_probability": 0.6227906528446409
+  },
+  {
+    "start": 5112.48,
+    "end": 5113.56,
+    "text": "이건 뭐지?",
+    "avg_logprob": -0.8419973571249779,
+    "no_speech_prob": 0.1382419615983963,
+    "compression_ratio": 1.5609756097560976,
+    "mean_word_probability": 0.13991022668778896
+  },
+  {
+    "start": 5145.8,
+    "end": 5150.01,
+    "text": "아피만 못 봤어. 아피 안 보였어 못 봤어요.",
+    "avg_logprob": -0.8419973571249779,
+    "no_speech_prob": 0.1382419615983963,
+    "compression_ratio": 1.5609756097560976,
+    "mean_word_probability": 0.43035304748142755
+  },
+  {
+    "start": 5153.06,
+    "end": 5155.3,
+    "text": "이걸 해야 다음 걸 넘어갈 수 있는데?",
+    "avg_logprob": -0.8419973571249779,
+    "no_speech_prob": 0.1382419615983963,
+    "compression_ratio": 1.5609756097560976,
+    "mean_word_probability": 0.7904556563922337
+  },
+  {
+    "start": 5158.38,
+    "end": 5159.0,
+    "text": "아닌가?",
+    "avg_logprob": -0.8419973571249779,
+    "no_speech_prob": 0.1382419615983963,
+    "compression_ratio": 1.5609756097560976,
+    "mean_word_probability": 0.6131400167942047
+  },
+  {
+    "start": 5160.46,
+    "end": 5162.24,
+    "text": "못하니까 다음 걸 넣어갈 줄 없네?",
+    "avg_logprob": -0.8419973571249779,
+    "no_speech_prob": 0.1382419615983963,
+    "compression_ratio": 1.5609756097560976,
+    "mean_word_probability": 0.576251759766213
+  },
+  {
+    "start": 5164.69,
+    "end": 5169.89,
+    "text": "아핵거 깨도 넘어가죠? 응. 깬 게 뭐가 있지? 응게 안 깨끗한 건가요?",
+    "avg_logprob": -0.8419973571249779,
+    "no_speech_prob": 0.1382419615983963,
+    "compression_ratio": 1.5609756097560976,
+    "mean_word_probability": 0.5810241195787158
+  },
+  {
+    "start": 5172.7,
+    "end": 5174.06,
+    "text": "응? 응표 없는 게 안 깨는 거에요.",
+    "avg_logprob": -0.8419973571249779,
+    "no_speech_prob": 0.1382419615983963,
+    "compression_ratio": 1.5609756097560976,
+    "mean_word_probability": 0.7041368074715137
+  },
+  {
+    "start": 5186.25,
+    "end": 5189.72,
+    "text": "다음 주의",
+    "avg_logprob": -2.921841323375702,
+    "no_speech_prob": 0.2806674540042877,
+    "compression_ratio": 0.6086956521739131,
+    "mean_word_probability": 0.06020738277584314
+  },
+  {
+    "start": 5452.31,
+    "end": 5454.89,
+    "text": "왜 깸볼러 안 나오지? 은폭아 있구나.",
+    "avg_logprob": -0.3515439398434697,
+    "no_speech_prob": 0.054376352578401566,
+    "compression_ratio": 1.3654618473895583,
+    "mean_word_probability": 0.6032609698673089
+  },
+  {
+    "start": 5468.96,
+    "end": 5470.44,
+    "text": "널! 정복하겠다.",
+    "avg_logprob": -0.3515439398434697,
+    "no_speech_prob": 0.054376352578401566,
+    "compression_ratio": 1.3654618473895583,
+    "mean_word_probability": 0.7853447645902634
+  },
+  {
+    "start": 5481.83,
+    "end": 5493.29,
+    "text": "틀린 음을 연주하는 것은 중요하지 않다, 열정 없이 연주 하는 것은 용서할 수 없다, 베토베니 위지를 이어가는 친마에스트로. 주술회전 조합진님 후원 감사합니다. 고맙습니다.",
+    "avg_logprob": -0.3515439398434697,
+    "no_speech_prob": 0.054376352578401566,
+    "compression_ratio": 1.3654618473895583,
+    "mean_word_probability": 0.8050370096657078
+  },
+  {
+    "start": 5496.66,
+    "end": 5497.72,
+    "text": "보통 사실 시시예요.",
+    "avg_logprob": -0.3515439398434697,
+    "no_speech_prob": 0.054376352578401566,
+    "compression_ratio": 1.3654618473895583,
+    "mean_word_probability": 0.8543887899981605
+  },
+  {
+    "start": 5499.77,
+    "end": 5501.93,
+    "text": "근데 깨질 못해요. 어려워먹는..",
+    "avg_logprob": -0.6772913805076054,
+    "no_speech_prob": 0.031557224690914154,
+    "compression_ratio": 1.1612903225806452,
+    "mean_word_probability": 0.6279857791960239
+  },
+  {
+    "start": 5503.91,
+    "end": 5507.71,
+    "text": "조금.. 조금 어려움을 없나? 조금 어려운?",
+    "avg_logprob": -0.6772913805076054,
+    "no_speech_prob": 0.031557224690914154,
+    "compression_ratio": 1.1612903225806452,
+    "mean_word_probability": 0.7013803542488152
+  },
+  {
+    "start": 5522.23,
+    "end": 5522.53,
+    "text": "그런데",
+    "avg_logprob": -0.6772913805076054,
+    "no_speech_prob": 0.031557224690914154,
+    "compression_ratio": 1.1612903225806452,
+    "mean_word_probability": 0.056964125484228134
+  },
+  {
+    "start": 5832.8,
+    "end": 5834.24,
+    "text": "이 친구가 너무 많다.",
+    "avg_logprob": -2.3332781195640564,
+    "no_speech_prob": 0.0420386865735054,
+    "compression_ratio": 0.725,
+    "mean_word_probability": 0.11589912138879299
+  },
+  {
+    "start": 6202.33,
+    "end": 6204.05,
+    "text": "마지막 곡 하도록 하겠습니다.",
+    "avg_logprob": -0.4755023206983294,
+    "no_speech_prob": 0.05241977050900459,
+    "compression_ratio": 1.1727272727272726,
+    "mean_word_probability": 0.7898685187101364
+  },
+  {
+    "start": 6228.06,
+    "end": 6229.76,
+    "text": "마지막은 어려운 가겠습니다.",
+    "avg_logprob": -0.4755023206983294,
+    "no_speech_prob": 0.05241977050900459,
+    "compression_ratio": 1.1727272727272726,
+    "mean_word_probability": 0.7663647631804148
+  },
+  {
+    "start": 6284.51,
+    "end": 6286.23,
+    "text": "모든 기술을 다 쏟아볼께습니다!",
+    "avg_logprob": -0.4755023206983294,
+    "no_speech_prob": 0.05241977050900459,
+    "compression_ratio": 1.1727272727272726,
+    "mean_word_probability": 0.544587011315993
+  },
+  {
+    "start": 6442.46,
+    "end": 6445.9,
+    "text": "통화트 왜 자꾸 주냐고? 금시 금사 보통",
+    "avg_logprob": -0.5894537938607706,
+    "no_speech_prob": 0.004511695355176926,
+    "compression_ratio": 1.1484375,
+    "mean_word_probability": 0.6238383035219852
+  },
+  {
+    "start": 6449.81,
+    "end": 6457.78,
+    "text": "갑니다 내 은퇴 무대는 화려하게 화려",
+    "avg_logprob": -0.5894537938607706,
+    "no_speech_prob": 0.004511695355176926,
+    "compression_ratio": 1.1484375,
+    "mean_word_probability": 0.7661896505289608
+  },
+  {
+    "start": 6462.84,
+    "end": 6464.6,
+    "text": "하게 끝내야겠습니다 니가",
+    "avg_logprob": -0.5894537938607706,
+    "no_speech_prob": 0.004511695355176926,
+    "compression_ratio": 1.1484375,
+    "mean_word_probability": 0.3810552173915009
+  },
+  {
+    "start": 6477.24,
+    "end": 6477.8,
+    "text": "좋아",
+    "avg_logprob": -0.5894537938607706,
+    "no_speech_prob": 0.004511695355176926,
+    "compression_ratio": 1.1484375,
+    "mean_word_probability": 0.8783282041549683
+  },
+  {
+    "start": 6822.58,
+    "end": 6826.08,
+    "text": "뭐야?",
+    "avg_logprob": -0.6654326656590337,
+    "no_speech_prob": 0.07822902500629425,
+    "compression_ratio": 0.9891304347826086,
+    "mean_word_probability": 0.39751267433166504
+  },
+  {
+    "start": 6837.34,
+    "end": 6838.08,
+    "text": "앙코를",
+    "avg_logprob": -0.6654326656590337,
+    "no_speech_prob": 0.07822902500629425,
+    "compression_ratio": 0.9891304347826086,
+    "mean_word_probability": 0.6314258933067322
+  },
+  {
+    "start": 6847.81,
+    "end": 6852.32,
+    "text": "은태곡 하겠습니다. 핑다래의 동글 은태고",
+    "avg_logprob": -0.6654326656590337,
+    "no_speech_prob": 0.07822902500629425,
+    "compression_ratio": 0.9891304347826086,
+    "mean_word_probability": 0.563537193958958
+  },
+  {
+    "start": 6904.22,
+    "end": 6906.98,
+    "text": "이게 앞으로는 안 써지네",
+    "avg_logprob": -0.3565327450633049,
+    "no_speech_prob": 0.010277081280946732,
+    "compression_ratio": 0.7906976744186046,
+    "mean_word_probability": 0.8052712803085645
+  },
+  {
+    "start": 7259.71,
+    "end": 7261.07,
+    "text": "이제",
+    "avg_logprob": -0.7631332969665527,
+    "no_speech_prob": 0.17514187097549438,
+    "compression_ratio": 0.9545454545454546,
+    "mean_word_probability": 0.21791569888591766
+  },
+  {
+    "start": 7273.32,
+    "end": 7275.26,
+    "text": "바로 상업적 유바끈정이죠",
+    "avg_logprob": -0.7631332969665527,
+    "no_speech_prob": 0.17514187097549438,
+    "compression_ratio": 0.9545454545454546,
+    "mean_word_probability": 0.6674363073848543
+  },
+  {
+    "start": 7283.68,
+    "end": 7287.15,
+    "text": "자, 은퇴하겠습니다. 아디어스",
+    "avg_logprob": -0.7631332969665527,
+    "no_speech_prob": 0.17514187097549438,
+    "compression_ratio": 0.9545454545454546,
+    "mean_word_probability": 0.6027475563188394
+  }
+]

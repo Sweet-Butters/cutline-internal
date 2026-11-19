@@ -1,0 +1,13 @@
+{
+  "original_duration": 7293.062676,
+  "edited_duration": 1398.189569,
+  "aligned_seconds": 1307.980045351474,
+  "alignment_ratio": 0.9354811925016401,
+  "unaligned_seconds": 90.20952364852587,
+  "clips": 99,
+  "min_clip": 1.996916099772534,
+  "median_clip": 3.993832199546432,
+  "max_clip": 95.85197278911528,
+  "mean_clip": 13.21191965001487,
+  "note": "Alignment blocks are not exact editorial shot boundaries. Unaligned edit intervals are omitted, not inferred."
+}

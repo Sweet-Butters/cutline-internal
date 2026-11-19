@@ -1,0 +1,5 @@
+sources/
+reference/*.mp4
+reference/*.info.json
+.cutline-cache/
+exports/
