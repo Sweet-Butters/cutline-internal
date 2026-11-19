@@ -37,7 +37,7 @@ mkdir sources
 .venv\Scripts\python -m yt_dlp -f "bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720]" --merge-output-format mp4 -o "reference/human_edit.%(ext)s" https://www.youtube.com/watch?v=GVHagGsmLck
 ```
 - 원 PC의 원본은 `original.mp4` 231MB, 길이 7293.06초. 다른 포맷으로 받히면 길이가 수십 ms 다를 수 있으나 타임라인(초 단위)은 그대로 쓸 수 있다.
-- **수정 필요:** `demo-chim/tools/vidcli.js` 3번째 줄의 `D:/orca/projects/video-ide/out/cli.js`를 새 PC의 `cutline/out/cli.js` 경로로 바꾼다.
+- **CLI 경로:** 최신 wrapper는 `CUTLINE_CLI_PATH` 환경변수 → `demo-chim/.cutline/cli-path.txt` → 나란히 둔 `cutline/out/cli.js` 순으로 찾는다. 두 저장소를 나란히 clone하고 앱을 빌드했다면 수정할 필요가 없다. 다른 배치에서는 `$env:CUTLINE_CLI_PATH='C:/실제/경로/cutline/out/cli.js'`처럼 절대경로를 지정한다. 로컬 설정 파일은 Git에서 제외된다.
 - 이미 들어 있는 것: `transcripts/original.mp4.json`(faster-whisper base), `reference/human_edit.timeline.json`(정답 99구간), `style.md`, `AGENTS.md`/`CLAUDE.md`, `tools/compare.js`.
 - Cutline에서 처음 열면 재생용 변환(프록시)에 20~45분 걸린다.
 - ⚠️ 원 PC에서 2시간 원본이 Cutline 패널에서 실제 재생(canplay)되는지 아직 확인 안 됨(07:25 기준 조사 중). 안 되면 원본에서 30분만 잘라 쓰는 것을 고려.

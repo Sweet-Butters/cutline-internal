@@ -6,7 +6,7 @@
 
 - 앱: `Sweet-Butters/cutline`, 작업 브랜치 `Sweet-Butters/humpback`, 시작 커밋 `cb6ec15`.
 - 내부 자료: `Sweet-Butters/cutline-internal`, 작업 브랜치 `setup/local-cli-path`.
-- 내부 자료의 `9e642ba`는 이 PC용 CLI 경로 변경이다. 다른 PC에서는 `demo-chim/tools/vidcli.js`의 `require` 경로를 그 PC에서 빌드한 `cutline/out/cli.js`로 바꾼다.
+- 내부 자료의 `ca1d579`는 CLI 경로를 `CUTLINE_CLI_PATH` → `demo-chim/.cutline/cli-path.txt` → 나란히 둔 `cutline/out/cli.js` 순으로 찾는다. 이전의 이 PC 전용 경로 변경 `9e642ba`를 대체한다. 새 PC에서 두 저장소를 나란히 두면 wrapper를 고칠 필요가 없다.
 - 이 세션은 로컬 커밋만 만든다. GitHub에 push하거나 공개 배포하지 않는다. 다른 PC에서 새 변경을 받으려면 해당 커밋의 전달이 별도로 필요하다.
 
 ## 확인 완료
@@ -25,7 +25,7 @@
 ## 진행 중 — 완료로 간주하지 말 것
 
 - 2시간 원본 전체를 Cutline 패널에서 열어 `canplay`와 프레임 진행·후반 탐색 확인.
-- 다른 PC용 CLI·다운로드 스크립트의 경로 정리.
+- 다른 PC용 다운로드 스크립트의 경로 정리.
 - Claude 사용자 로그인.
 
 ## 패키지·영상 복원 검증
@@ -50,7 +50,7 @@
 
 1. 두 저장소의 로컬 변경을 확인한 뒤 원격 변경을 가져온다. 이 세션에서 만든 커밋이 아직 원격에 없으면 먼저 전달받는다.
 2. `SETUP_OTHER_PC.md`대로 도구와 앱 의존성을 설치하고 빌드한다. `.venv`, 프록시 캐시, 앱 ZIP은 Git에 들어가지 않는다.
-3. `demo-chim/tools/vidcli.js` 경로를 새 PC에 맞추고 `summary`를 실행한다.
+3. 두 저장소를 나란히 두거나 `CUTLINE_CLI_PATH`에 앱의 `out/cli.js` 절대경로를 지정한 뒤 `node demo-chim/tools/vidcli.js summary`를 실행한다.
 4. 영상을 복원한 뒤 `validate`를 실행한다. 길이 차이가 있으면 원본 타임라인을 임의로 덮어쓰지 말고 확인한다.
 5. 아래의 최종 검증 기록이 갱신되었는지 확인하고, 미완료 항목부터 이어간다.
 
