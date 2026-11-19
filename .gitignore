@@ -1,0 +1,19 @@
+# Local Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+
+# Restored footage and playback/export artifacts stay on this computer.
+demo-chim/sources/
+demo-chim/reference/*.mp4
+demo-chim/reference/*.webm
+demo-chim/reference/*.info.json
+**/.cutline-cache/
+**/.cutline/
+**/exports/
+*.part
+*.ytdl
+
+# Rebuilt presentation outputs
+pitch/out/

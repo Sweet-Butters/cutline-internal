@@ -1,5 +1,7 @@
 # 다른 컴퓨터에서 이어서 하기 (내부 · 팀 전용)
 
+최신 PC 검증 결과와 이어갈 항목은 **[CONTINUE_HERE.md](CONTINUE_HERE.md)**부터 확인하세요. 아래는 최초 설정 안내이며, 기존 PC의 경로나 미검증 상태가 포함되어 있습니다.
+
 ## 저장소
 - 앱 코드: https://github.com/Sweet-Butters/cutline (비공개)
 - 내부 자료: https://github.com/Sweet-Butters/cutline-internal (비공개) — 이 문서, HANDOFF.md, 실측(measure/), 조사(research/, trinx/), 발표자료 소스(pitch/), 침착맨 시연 프로젝트 메타데이터(demo-chim/, 영상 제외)
