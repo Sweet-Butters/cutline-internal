@@ -12,7 +12,7 @@
 ## 확인 완료
 
 - Node 24.3.0, Python 3.13.5, ffmpeg/ffprobe, Claude·Codex CLI가 설치되어 있다.
-- Codex는 `codex login status`로 로그인 확인. Claude는 `claude auth status --json` 결과 미로그인이다. Claude 사용 전 사용자가 `claude auth login`을 실행해야 한다. 다른 PC에서는 각 PC의 로그인 상태를 다시 확인한다.
+- Codex는 `codex login status`로 로그인 확인. **사용자 지시로 이 PC에서는 Codex 구독 로그인만 사용한다.** Claude는 설치되어 있지만 미로그인이며 설정 완료 조건에서 제외한다. 다른 PC에서도 사용할 CLI의 로그인 상태를 확인한다.
 - 앱 `npm ci`, `npm test`: 빌드 성공, 테스트 28개 통과.
 - `demo-chim`에서 CLI `summary` 실행과 `compare.js --self-test` 통과.
 - VS Code 1.131.0에서 앱 통합 테스트 통과: 영상 메타데이터·`canplay`, 실제 프레임 진행과 클립 전환, 대본 탐색, 수동 편집·되돌리기, 버전 비교 확인.
@@ -25,7 +25,6 @@
 ## 진행 중 — 완료로 간주하지 말 것
 
 - 2시간 원본 전체를 Cutline 패널에서 열어 `canplay`와 프레임 진행·후반 탐색 확인.
-- Claude 사용자 로그인.
 
 ## 패키지·영상 복원 검증
 
