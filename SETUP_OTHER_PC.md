@@ -30,12 +30,13 @@ powershell -ExecutionPolicy Bypass -File app/build.ps1   # VSCodium 받아 app/d
 
 ```
 git clone https://github.com/Sweet-Butters/cutline-internal.git
-cd cutline-internal/demo-chim
-python -m venv .venv && .venv\Scripts\pip install yt-dlp
-mkdir sources
-.venv\Scripts\python -m yt_dlp -f "bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720]" --merge-output-format mp4 -o "sources/original.%(ext)s" https://www.youtube.com/watch?v=wnXAkjgVELc
-.venv\Scripts\python -m yt_dlp -f "bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720]" --merge-output-format mp4 -o "reference/human_edit.%(ext)s" https://www.youtube.com/watch?v=GVHagGsmLck
+cd cutline-internal
+python -m venv .venv
+.venv\Scripts\python -m pip install yt-dlp numpy
+powershell -NoProfile -ExecutionPolicy Bypass -File .\demo-chim\download.ps1 -DryRun
+powershell -NoProfile -ExecutionPolicy Bypass -File .\demo-chim\download.ps1
 ```
+- 다운로드 스크립트는 저장소 루트의 가상환경을 사용하고, 두 영상을 `demo-chim/sources/original.mp4`, `demo-chim/reference/human_edit.mp4`에 복원한다. 기존 파일은 보존한다. 다른 Python을 쓰려면 `-Python 'C:/경로/python.exe'`를 지정한다.
 - 원 PC의 원본은 `original.mp4` 231MB, 길이 7293.06초. 다른 포맷으로 받히면 길이가 수십 ms 다를 수 있으나 타임라인(초 단위)은 그대로 쓸 수 있다.
 - **CLI 경로:** 최신 wrapper는 `CUTLINE_CLI_PATH` 환경변수 → `demo-chim/.cutline/cli-path.txt` → 나란히 둔 `cutline/out/cli.js` 순으로 찾는다. 두 저장소를 나란히 clone하고 앱을 빌드했다면 수정할 필요가 없다. 다른 배치에서는 `$env:CUTLINE_CLI_PATH='C:/실제/경로/cutline/out/cli.js'`처럼 절대경로를 지정한다. 로컬 설정 파일은 Git에서 제외된다.
 - 이미 들어 있는 것: `transcripts/original.mp4.json`(faster-whisper base), `reference/human_edit.timeline.json`(정답 99구간), `style.md`, `AGENTS.md`/`CLAUDE.md`, `tools/compare.js`.

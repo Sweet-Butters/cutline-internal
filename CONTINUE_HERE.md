@@ -25,7 +25,6 @@
 ## 진행 중 — 완료로 간주하지 말 것
 
 - 2시간 원본 전체를 Cutline 패널에서 열어 `canplay`와 프레임 진행·후반 탐색 확인.
-- 다른 PC용 다운로드 스크립트의 경로 정리.
 - Claude 사용자 로그인.
 
 ## 패키지·영상 복원 검증
@@ -39,6 +38,17 @@
 - 사람 편집본: `demo-chim/reference/human_edit.mp4`, 1,398.189569초, 294,914,142 bytes, 1280×720 AV1/AAC.
 - 이번 파일은 이전 PC의 240p 원본과 다르다. 타임라인 시간은 일치하지만 원본 바이트가 다르므로 프록시 캐시는 공유되지 않는다.
 - 위의 오디오 디코딩 검사는 스피커로 소리를 직접 들어본 검사가 아니다.
+- 내부 자료 `a723bcd`의 `demo-chim/download.ps1`은 저장소 루트 `.venv`를 사용해 두 파일을 올바른 프로젝트 경로로 복원한다. `-DryRun`은 다운로드하지 않고 계획·기존 파일 보존 여부를 출력한다. 파일 덮어쓰기 방지와 실패 처리·정리는 오프라인 검사했다.
+
+## 긴 영상 재생 검사 재실행
+
+앱 커밋 `024d8b3`의 `tools/test-playback.js`를 앱 저장소에서 실행한다. 아래 예시는 두 저장소가 나란히 있고 앱을 직접 빌드한 경우다. ZIP을 따로 풀었다면 실행 파일·확장 폴더 경로를 바꾼다.
+
+```powershell
+node tools/test-playback.js --project ../cutline-internal/demo-chim --vscode ./app/build/Cutline/VSCodium.exe --extension ./app/build/Cutline/data/extensions/cutline-local.cutline-0.1.0
+```
+
+출력 JSON의 `passed: true`와 3개 `checks`를 확인한다. 첫 클립의 시작·중간·끝 근처에서 실제 재생 시간과 디코딩된 프레임 증가를 확인한다. 별도 임시 사용자 프로필을 사용하며, 대본 내용은 결과 JSON에 저장하지 않는다. 프록시 캐시가 없으면 전체 영상 변환을 기다리므로 오래 걸릴 수 있다. 무음 자동 검사이므로 스피커 출력은 시연 전에 직접 확인한다.
 
 현재 PC의 작업 기록은 Git 밖의 다음 폴더에 있다:
 
