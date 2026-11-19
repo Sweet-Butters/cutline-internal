@@ -57,3 +57,21 @@
 ## 최종 검증 기록
 
 진행 중. 작업별 결과와 커밋·산출물 경로를 확인한 뒤 갱신한다.
+
+## GitHub에 push하지 않고 다른 PC로 옮기기
+
+현재 PC의 `C:\Users\pxh7y\orca\deliverables\cutline-handoff-20261120\`에 로컬 변경만 담은 Git bundle을 준비한다. 이 세션의 bundle은 기존 앱 `cb6ec15`, 내부 자료 `bca451b` 커밋을 전제로 하므로 먼저 GitHub에서 두 저장소를 clone하거나 최신 상태로 받는다. 영상·캐시·가상환경은 bundle에 들어가지 않는다.
+
+아래는 전달 폴더를 새 PC의 `C:\handoff`에 복사하고, 두 저장소가 현재 폴더 아래에 있다는 예시다. 기존 작업을 먼저 커밋하거나 보관한다.
+
+```powershell
+git -C cutline bundle verify C:/handoff/cutline-changes.bundle
+git -C cutline fetch C:/handoff/cutline-changes.bundle HEAD:refs/heads/handoff-20261120
+git -C cutline switch handoff-20261120
+
+git -C cutline-internal bundle verify C:/handoff/cutline-internal-changes.bundle
+git -C cutline-internal fetch C:/handoff/cutline-internal-changes.bundle HEAD:refs/heads/handoff-20261120
+git -C cutline-internal switch handoff-20261120
+```
+
+이미 같은 이름의 브랜치에서 작업 중이라면 자동으로 덮어쓰지 말고 다른 새 브랜치 이름을 쓴다. 앱 ZIP과 VSIX는 위 패키지 경로에서 별도로 복사하거나 새 PC에서 빌드한다. 원본 영상은 내부 용도로만 복사하거나 문서의 두 URL에서 다시 받는다. bundle의 최종 커밋과 해시는 전달 폴더의 `manifest.json`에서 확인한다.
