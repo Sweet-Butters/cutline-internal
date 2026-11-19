@@ -22,9 +22,9 @@
 - 내부 자료 루트 `.venv`에 yt-dlp와 numpy 설치 완료. 다른 PC에서는 가상환경을 다시 만든다.
 - `app/dist/Cutline-win-x64.zip` 생성 및 독립 압축 해제 확인. ZIP 안에 실행 파일과 설치된 확장이 있고 침착맨 프로젝트 경로·대표적인 인증 파일명은 없음을 확인했다. 실제 패키지의 재생 검증은 아래 최종 기록을 확인한다.
 
-## 진행 중 — 완료로 간주하지 말 것
+## 완료 범위
 
-- 2시간 원본 전체를 Cutline 패널에서 열어 `canplay`와 프레임 진행·후반 탐색 확인.
+이 PC에서 요청한 도구 준비, 영상 복원, 앱 패키징·통합 테스트와 2시간 원본의 표본 재생 검증을 완료했다. 이 PC는 로그인된 Codex를 사용한다.
 
 ## 패키지·영상 복원 검증
 
@@ -53,7 +53,7 @@ node tools/test-playback.js --project ../cutline-internal/demo-chim --vscode ./a
 
 `C:\Users\pxh7y\.agents\state\work-status\838a7d2d4c1c4f5f\setup-complete-20261120\`
 
-`root.json`은 조정 작업, `app-validation.json`은 앱 검증, `media-playback.json`은 영상 복원을 기록한다. 프로세스 생존이나 heartbeat는 완료 증거가 아니다. 다른 PC에서는 이 상태 경로 대신 이 문서와 실제 산출물을 확인한다.
+`root.json`은 조정 작업, `app-validation.json`은 앱 검증, `media-playback.json`은 영상 복원, `handoff-portability.json`은 이동용 도구를 기록한다. 프로세스 생존이나 heartbeat는 완료 증거가 아니다. 다른 PC에서는 이 상태 경로 대신 이 문서와 실제 산출물을 확인한다.
 
 ## 다른 PC에서 먼저 할 일
 
@@ -65,11 +65,23 @@ node tools/test-playback.js --project ../cutline-internal/demo-chim --vscode ./a
 
 ## 최종 검증 기록
 
-진행 중. 작업별 결과와 커밋·산출물 경로를 확인한 뒤 갱신한다.
+**패키지 Cutline에서 실제 2:01:33 원본 재생 검사 통과.** ZIP을 별도 폴더에 풀어 얻은 VSCodium 1.100.3과 포함된 확장을 검사했다. 테스트 종료 코드 0, `passed: true`, WebM `canplay`, 영상 640×360, 재생 오류 0건이다.
+
+| 위치(원본 초) | 실제 재생 시간(초) | 디코딩 프레임 |
+|---|---|---|
+| 시작 | 0 → 0.767075 | 4 → 22 |
+| 중간 | 3646.531338 → 3647.318880 | 124 → 144 |
+| 끝 8초 전 | 7285.062676 → 7285.833802 | 274 → 293 |
+
+세 위치 모두 오디오 디코딩 바이트도 증가했다. **무음으로 세 지점을 탐색한 검사이며, 2시간 연속 재생이나 스피커 청취 검사는 아니다.** Microsoft VS Code의 전체 원본 재생은 검사하지 않았고, 120초 샘플의 MP4 호환 전환과 세 지점 재생만 확인했다.
+
+원본 전체 WebM 변환은 885.82초(14분 45.82초), 결과는 7,293.065초 / 727,615,545 bytes / VP8·Vorbis다. 캐시 파일은 `demo-chim/.cutline-cache/783e6b87ba7ea635753d25646e87130bbac0d4d2803f73c3e01e0390717a6b90.webm`이다. 원본 바이트와 변환 프로필이 같으면 캐시를 재사용할 수 있다. 다른 PC의 처리 시간은 하드웨어·선택된 원본·부하에 따라 다르다.
+
+대본을 제외한 숫자 진단 결과는 [verification/full-playback-20261120.json](verification/full-playback-20261120.json)에 보존했다. 원본·정답 타임라인·대본은 수정하지 않았다.
 
 ## GitHub에 push하지 않고 다른 PC로 옮기기
 
-현재 PC의 `C:\Users\pxh7y\orca\deliverables\cutline-handoff-20261120\`에 로컬 변경만 담은 Git bundle을 준비한다. 이 세션의 bundle은 기존 앱 `cb6ec15`, 내부 자료 `bca451b` 커밋을 전제로 하므로 먼저 GitHub에서 두 저장소를 clone하거나 최신 상태로 받는다. 영상·캐시·가상환경은 bundle에 들어가지 않는다.
+현재 PC의 `C:\Users\pxh7y\orca\deliverables\cutline-handoff-20261120\`에 로컬 변경만 담은 Git bundle, 앱 ZIP·VSIX와 해시, 재생 검사 결과, `manifest.json`을 모았다. 이 세션의 bundle은 기존 앱 `cb6ec15`, 내부 자료 `bca451b` 커밋을 전제로 하므로 먼저 GitHub에서 두 저장소를 clone하거나 최신 상태로 받는다. 영상·캐시·가상환경은 전달 묶음에 들어가지 않는다.
 
 아래는 전달 폴더를 새 PC의 `C:\handoff`에 복사하고, 두 저장소가 현재 폴더 아래에 있다는 예시다. 기존 작업을 먼저 커밋하거나 보관한다.
 
@@ -83,4 +95,4 @@ git -C cutline-internal fetch C:/handoff/cutline-internal-changes.bundle HEAD:re
 git -C cutline-internal switch handoff-20261120
 ```
 
-이미 같은 이름의 브랜치에서 작업 중이라면 자동으로 덮어쓰지 말고 다른 새 브랜치 이름을 쓴다. 앱 ZIP과 VSIX는 위 패키지 경로에서 별도로 복사하거나 새 PC에서 빌드한다. 원본 영상은 내부 용도로만 복사하거나 문서의 두 URL에서 다시 받는다. bundle의 최종 커밋과 해시는 전달 폴더의 `manifest.json`에서 확인한다.
+이미 같은 이름의 브랜치에서 작업 중이라면 자동으로 덮어쓰지 말고 다른 새 브랜치 이름을 쓴다. 전달 폴더의 앱 ZIP을 풀어 실행하거나 새 PC에서 빌드한다. 원본 영상은 내부 용도로만 복사하거나 문서의 두 URL에서 다시 받는다. 원본과 프록시 캐시를 함께 복사하면 동일 원본을 재변환하는 시간을 줄일 수 있다. bundle의 최종 커밋과 해시는 전달 폴더의 `manifest.json`에서 확인한다. PowerShell의 `Get-FileHash -Algorithm SHA256`로 전달 파일의 해시를 비교할 수 있다.

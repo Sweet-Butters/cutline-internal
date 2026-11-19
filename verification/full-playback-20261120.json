@@ -1,0 +1,80 @@
+{
+  "runtime": "1.100.3",
+  "passed": true,
+  "checks": [
+    {
+      "target": 0,
+      "before": {
+        "time": 0,
+        "frames": 4,
+        "paused": true,
+        "seeking": false,
+        "audioBytes": 1359,
+        "width": 640,
+        "index": 0
+      },
+      "after": {
+        "time": 0.767075,
+        "frames": 22,
+        "paused": false,
+        "seeking": false,
+        "audioBytes": 6213,
+        "width": 640,
+        "index": 0
+      }
+    },
+    {
+      "target": 3646.531338,
+      "before": {
+        "time": 3646.531338,
+        "frames": 124,
+        "paused": true,
+        "seeking": false,
+        "audioBytes": 59845,
+        "width": 640,
+        "index": 0
+      },
+      "after": {
+        "time": 3647.31888,
+        "frames": 144,
+        "paused": false,
+        "seeking": false,
+        "audioBytes": 70114,
+        "width": 640,
+        "index": 0
+      }
+    },
+    {
+      "target": 7285.062676,
+      "before": {
+        "time": 7285.062676,
+        "frames": 274,
+        "paused": true,
+        "seeking": false,
+        "audioBytes": 128847,
+        "width": 640,
+        "index": 0
+      },
+      "after": {
+        "time": 7285.833802,
+        "frames": 293,
+        "paused": false,
+        "seeking": false,
+        "audioBytes": 136522,
+        "width": 640,
+        "index": 0
+      }
+    }
+  ],
+  "clip": {
+    "in": 0,
+    "out": 7293.062676
+  },
+  "media": {
+    "format": "webm",
+    "duration": 7293.065,
+    "width": 640,
+    "height": 360
+  },
+  "playbackErrors": 0
+}
