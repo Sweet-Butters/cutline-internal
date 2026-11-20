@@ -1,6 +1,6 @@
 # 다른 PC에서 이어가기 — 2026-11-20 검증 기록
 
-이 문서는 현재 PC에서 직접 확인한 결과와 다른 PC에서 이어갈 절차를 기록한다. 최초 인수인계는 `HANDOFF.md`, 설치 순서는 `SETUP_OTHER_PC.md`를 참고한다. 두 저장소는 비공개로 유지한다. 영상은 저장소에 넣지 않으며 대본·내부 자료를 공개 게시하지 않는다.
+이 문서는 현재 PC에서 직접 확인한 결과와 다른 PC에서 이어갈 절차를 기록한다. 최초 인수인계는 `HANDOFF.md`, 설치 순서는 `SETUP_OTHER_PC.md`를 참고한다. 두 저장소는 비공개로 유지한다. 영상·프록시는 Git 이력 대신 비공개 Release에서 전달하며 대본·내부 자료를 공개 게시하지 않는다.
 
 ## GitHub에서 이어받기 — 여기부터
 
@@ -9,6 +9,7 @@
 - [앱 코드](https://github.com/Sweet-Butters/cutline)
 - [내부 자료](https://github.com/Sweet-Butters/cutline-internal)
 - [검증한 Windows 설치본·VSIX·해시 다운로드](https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-handoff-20261120)
+- **[침착맨 원본·사람 편집본·검증한 재생 프록시](https://github.com/Sweet-Butters/cutline-internal/releases/tag/demo-chim-media-20261120)**
 
 새 PC에서는 접근 권한이 있는 GitHub 계정으로 로그인하고 두 저장소를 나란히 받는다.
 
@@ -26,14 +27,24 @@ git -C cutline-internal switch master
 git -C cutline-internal pull --ff-only origin master
 ```
 
-이후 이 문서와 `SETUP_OTHER_PC.md`를 읽는다. `demo-chim/`의 받아쓰기·정답 타임라인·스타일·비교 도구, `measure/`의 결과·채점 코드, `pitch/`의 발표 소스·대본·Q&A, `research/`·`trinx/`의 조사 자료도 함께 받게 된다. Node·ffmpeg·Python·CLI 로그인은 PC마다 준비하고, 시연 영상은 `demo-chim/download.ps1`로 복원한다.
+이후 이 문서와 `SETUP_OTHER_PC.md`를 읽는다. `demo-chim/`의 받아쓰기·정답 타임라인·스타일·비교 도구, `measure/`의 결과·채점 코드, `pitch/`의 발표 소스·대본·Q&A, `research/`·`trinx/`의 조사 자료도 함께 받게 된다. Node·ffmpeg·Python·CLI 로그인은 PC마다 준비한다.
+
+**`git clone`만으로 대용량 영상이 내려오지는 않는다.** GitHub CLI(`gh`)를 설치하고 이 비공개 저장소에 접근 가능한 계정으로 로그인한 뒤, 내부 자료 루트에서 아래를 실행한다. 원본·사람 편집본·프록시 약 2.38GB를 받으며 SHA-256과 크기를 확인한다. YouTube 재다운로드와 프록시 재변환은 필요하지 않다.
+
+```powershell
+gh auth status
+# 아직 로그인하지 않았다면: gh auth login
+powershell -NoProfile -ExecutionPolicy Bypass -File .\demo-chim\restore-github.ps1
+```
+
+CLI를 쓰지 않으려면 위 영상 Release에서 `media-manifest.json`과 세 영상 파일을 받아 manifest의 `path`대로 `demo-chim/` 아래에 둔다. 원본은 `sources/original.mp4`, 사람 편집본은 `reference/human_edit.mp4`, 긴 해시 이름의 WebM은 `.cutline-cache/` 아래의 같은 파일명이다. 이 프록시는 배포한 패키지 Cutline에서 검증했다. Microsoft VS Code에서는 호환 프록시를 추가로 만들 수 있다.
 
 ## 현재 작업
 
 - 앱: `Sweet-Butters/cutline`, 작업 브랜치 `Sweet-Butters/humpback`, 시작 커밋 `cb6ec15`.
 - 내부 자료: `Sweet-Butters/cutline-internal`, 작업 브랜치 `setup/local-cli-path`.
 - 내부 자료의 `ca1d579`는 CLI 경로를 `CUTLINE_CLI_PATH` → `demo-chim/.cutline/cli-path.txt` → 나란히 둔 `cutline/out/cli.js` 순으로 찾는다. 이전의 이 PC 전용 경로 변경 `9e642ba`를 대체한다. 새 PC에서 두 저장소를 나란히 두면 wrapper를 고칠 필요가 없다.
-- 사용자 요청에 따라 이번 코드·도구·문서·검증 결과는 두 비공개 저장소의 `master`에 동기화한다. 검증한 앱 ZIP·VSIX와 해시는 비공개 앱 저장소의 Release에서 받는다. 영상·프록시·가상환경·인증정보는 올리지 않는다.
+- 사용자 요청에 따라 코드·도구·문서·검증 결과는 두 비공개 저장소의 `master`에 동기화한다. 앱 ZIP·VSIX는 앱 저장소 Release에서, 원본·사람 편집본·검증한 프록시는 내부 저장소 Release에서 받는다. 가상환경·인증정보는 올리지 않는다.
 
 ## 확인 완료
 
@@ -85,9 +96,9 @@ node tools/test-playback.js --project ../cutline-internal/demo-chim --vscode ./a
 ## 다른 PC에서 먼저 할 일
 
 1. 위 절차대로 두 저장소의 `master`를 clone/pull한다.
-2. `SETUP_OTHER_PC.md`대로 필요한 도구를 설치한다. 앱은 Release에서 받아 풀거나 소스에서 빌드한다. `.venv`와 프록시 캐시는 PC마다 만들며 Git에 들어가지 않는다.
+2. `SETUP_OTHER_PC.md`대로 필요한 도구를 설치한다. 앱은 Release에서 받아 풀거나 소스에서 빌드한다. 영상과 검증한 프록시는 내부 저장소 Release에서 위 명령으로 복원한다. `.venv`는 PC마다 만들며 Git에 들어가지 않는다.
 3. 앱을 소스에서 빌드했다면 나란히 둔 저장소의 `out/cli.js`를 자동으로 찾는다. Release 앱을 사용한다면 `CUTLINE_CLI_PATH`에 압축을 푼 `Cutline/out/cli.js` 절대경로를 지정한다. 내부 자료 루트에서 `node demo-chim/tools/vidcli.js summary`를 실행한다.
-4. 영상을 복원한 뒤 `validate`를 실행한다. 길이 차이가 있으면 원본 타임라인을 임의로 덮어쓰지 말고 확인한다.
+4. GitHub Release에서 영상을 복원한 뒤 `validate`를 실행한다. `media-manifest.json`과 동일한 파일이므로 기존 타임라인·캐시와 일치한다. YouTube 재다운로드 스크립트는 대체 방법으로만 사용한다.
 5. 사용할 Codex CLI에 본인 구독으로 로그인하고 Cutline 대화창에서 Codex를 선택한다. 실제 시연 전 스피커 음성을 직접 확인한다. 아래는 이번 PC의 검증 결과이며 새 PC의 정상 동작을 자동으로 보장하지 않는다.
 
 ## 최종 검증 기록

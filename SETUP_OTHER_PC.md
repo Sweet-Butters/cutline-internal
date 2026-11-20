@@ -10,6 +10,7 @@
 - Git, Node.js 20+ (원 PC는 24), ffmpeg/ffprobe (PATH), Python 3.10+ (yt-dlp·채점용, numpy)
 - Claude Code CLI(`claude`)·Codex CLI(`codex`) 구독 로그인. 유료 API 키는 쓰지 않는다.
 - Windows 권장(앱 패키징 스크립트가 PowerShell). macOS/Linux는 확장 개발 실행만 가능(미검증).
+- GitHub CLI(`gh`): 비공개 Release의 영상·프록시를 자동 복원할 때 사용. `gh auth status`로 확인하고 미로그인이면 `gh auth login`으로 저장소 접근 가능한 계정에 로그인한다.
 
 ## 1. 앱 빌드
 검증한 설치본을 바로 쓰려면 [비공개 GitHub Release](https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-handoff-20261120)에서 `Cutline-win-x64.zip`과 해시를 받아 압축을 푼 뒤 `Cutline.exe`를 실행한다. 아래는 소스에서 직접 빌드하는 방법이다.
@@ -25,7 +26,22 @@ powershell -ExecutionPolicy Bypass -File app/build.ps1   # VSCodium 받아 app/d
 ```
 - 개발 중엔 VS Code에서 이 폴더를 열고 F5(확장 개발 호스트)로도 실행 가능.
 
-## 2. 침착맨 시연 프로젝트 복원 (영상은 다시 받기)
+## 2. 침착맨 시연 프로젝트 복원 (GitHub Release에서 받기)
+
+**기본 방법:** [비공개 영상 Release](https://github.com/Sweet-Butters/cutline-internal/releases/tag/demo-chim-media-20261120)에서 검증한 원본·사람 편집본·재생 프록시를 받는다. YouTube 재다운로드 없이 이전 PC와 동일한 파일로 복원한다. 영상은 `git clone`에 포함되지 않으므로 아래 단계가 필요하다.
+
+```powershell
+git clone https://github.com/Sweet-Butters/cutline-internal.git
+cd cutline-internal
+gh auth status
+# 아직 로그인하지 않았다면: gh auth login
+powershell -NoProfile -ExecutionPolicy Bypass -File .\demo-chim\restore-github.ps1 -DryRun
+powershell -NoProfile -ExecutionPolicy Bypass -File .\demo-chim\restore-github.ps1
+```
+
+스크립트는 `demo-chim/media-manifest.json`에 따라 파일 크기·SHA-256을 검사하고 올바른 폴더에 둔다. 이미 같은 파일이 있으면 보존하며, 다른 기존 원본을 임의로 덮어쓰지 않는다. CLI 대신 직접 다운로드해 manifest의 `path`대로 배치할 수도 있다. 검증한 프록시까지 복원하면 패키지 Cutline에서 전체 영상 변환을 반복할 필요가 없다.
+
+### 대체 방법: YouTube에서 다시 받기
 영상 원본(권리 미확인 · 공개 금지 · 내부/심사용만):
 - 원본(2:01:33, 침착맨 게임 풀버전): https://www.youtube.com/watch?v=wnXAkjgVELc
 - 사람 편집본(23:18, 침착맨 플러스): https://www.youtube.com/watch?v=GVHagGsmLck
