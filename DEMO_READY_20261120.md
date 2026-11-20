@@ -1,5 +1,7 @@
 # Cutline — 이 PC 시연 준비 완료 (2026-11-20)
 
+> 후속 배포: 아래는 회광 PC의 로컬 녹화 준비 기록이다. 이후 스트리밍 수정과 복원 프록시 재사용 수정을 포함한 [새 설치본](https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-repro-20261120), [영상·프록시](https://github.com/Sweet-Butters/cutline-internal/releases/tag/demo-chim-media-20261120)를 비공개 Release에 게시했다. 다른 PC에서는 아래 D: 경로 대신 [REPRODUCE.md](REPRODUCE.md)의 절차를 사용한다.
+
 ## 실행
 
 PowerShell에서:

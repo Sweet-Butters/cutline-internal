@@ -1,4 +1,4 @@
-> 2026-11-20 추가: 회광 PC 긴 영상 재생 경로 수정 및 녹화 준비는 [DEMO_READY_20261120.md](DEMO_READY_20261120.md) 참고. 기존 Release는 이 수정이 반영되기 전 버전이며, 새 ZIP은 로컬에만 있습니다.
+> 최신: 영상·프록시와 수정 설치본을 비공개 GitHub Release에 게시했다. 다른 PC 재현은 [REPRODUCE.md](REPRODUCE.md) 참고. 회광 PC의 재생 경로 수정·녹화 준비 당시 기록은 [DEMO_READY_20261120.md](DEMO_READY_20261120.md)에 보존되어 있다.
 
 # 다른 PC에서 이어가기 — 2026-11-20 검증 기록
 
