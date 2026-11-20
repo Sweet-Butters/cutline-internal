@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-20",
+  "machine": "owner Windows PC",
+  "runtime": "VSCodium 1.100.3",
+  "extension": "rebuilt bundled cutline-local.cutline-0.1.0",
+  "passed": true,
+  "media": {
+    "format": "webm",
+    "duration": 7293.065,
+    "width": 640,
+    "height": 360
+  },
+  "playbackErrors": 0,
+  "checks": [
+    {
+      "target": 0,
+      "time": [
+        0,
+        0.811865
+      ],
+      "frames": [
+        4,
+        24
+      ],
+      "audioBytes": [
+        1359,
+        6214
+      ]
+    },
+    {
+      "target": 3646.531338,
+      "time": [
+        3646.531338,
+        3647.34539
+      ],
+      "frames": [
+        125,
+        146
+      ],
+      "audioBytes": [
+        59848,
+        70397
+      ]
+    },
+    {
+      "target": 7285.062676,
+      "time": [
+        7285.062676,
+        7285.870642
+      ],
+      "frames": [
+        286,
+        306
+      ],
+      "audioBytes": [
+        134595,
+        142660
+      ]
+    }
+  ],
+  "unitTests": 29,
+  "integration": "passed on rebuilt bundled extension",
+  "limitations": [
+    "Muted automated three-position check, not continuous two-hour playback or speaker listening."
+  ],
+  "artifacts": [
+    {
+      "path": "app/dist/Cutline-win-x64.zip",
+      "bytes": 189292282,
+      "sha256": "56bb24c58f5188b0e4efb856b8880e702c04d3f68af8d4b65163c6442d99f3b7"
+    },
+    {
+      "path": "dist/cutline.vsix",
+      "bytes": 72558,
+      "sha256": "d8965b0f877008ecb2005ed781d81c91d4d3e9f0efbfbc3c4485611ccb03ca89"
+    }
+  ]
+}
