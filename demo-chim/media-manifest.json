@@ -1,0 +1,25 @@
+{
+    "version":  1,
+    "repository":  "Sweet-Butters/cutline-internal",
+    "release":  "demo-chim-media-20261120",
+    "files":  [
+                  {
+                      "asset":  "original.mp4",
+                      "path":  "sources/original.mp4",
+                      "bytes":  1361925581,
+                      "sha256":  "b097b230d4e3d0788c4c798d7230034de566972d06c92a94bec070f99454f53b"
+                  },
+                  {
+                      "asset":  "human_edit.mp4",
+                      "path":  "reference/human_edit.mp4",
+                      "bytes":  294914142,
+                      "sha256":  "4f5d8c0c05976633965426b34c6cb4f38a31fcf22418e82f80bf09e7226ec63e"
+                  },
+                  {
+                      "asset":  "783e6b87ba7ea635753d25646e87130bbac0d4d2803f73c3e01e0390717a6b90.webm",
+                      "path":  ".cutline-cache/783e6b87ba7ea635753d25646e87130bbac0d4d2803f73c3e01e0390717a6b90.webm",
+                      "bytes":  727615545,
+                      "sha256":  "6254818f6905381bc11e55d05cb61ae1a5b9f3ef8647b1c128b17ef6bc542756"
+                  }
+              ]
+}
