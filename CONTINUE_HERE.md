@@ -97,7 +97,7 @@ node tools/test-playback.js --project ../cutline-internal/demo-chim --vscode ./a
 
 1. 위 절차대로 두 저장소의 `master`를 clone/pull한다.
 2. `SETUP_OTHER_PC.md`대로 필요한 도구를 설치한다. 앱은 Release에서 받아 풀거나 소스에서 빌드한다. 영상과 검증한 프록시는 내부 저장소 Release에서 위 명령으로 복원한다. `.venv`는 PC마다 만들며 Git에 들어가지 않는다.
-3. 앱을 소스에서 빌드했다면 나란히 둔 저장소의 `out/cli.js`를 자동으로 찾는다. Release 앱을 사용한다면 `CUTLINE_CLI_PATH`에 압축을 푼 `Cutline/out/cli.js` 절대경로를 지정한다. 내부 자료 루트에서 `node demo-chim/tools/vidcli.js summary`를 실행한다.
+3. 앱을 소스에서 빌드했다면 나란히 둔 저장소의 `out/cli.js`를 자동으로 찾는다. Release 앱을 사용한다면 `demo-chim/.cutline/cli-path.txt`에 압축을 푼 `Cutline/out/cli.js` 절대경로를 UTF-8로 저장한다. `CUTLINE_CLI_PATH` 환경변수도 사용할 수 있지만, 이 경우 같은 터미널에서 앱을 새로 실행해야 앱 안의 에이전트도 값을 받는다. 내부 자료 루트에서 `node demo-chim/tools/vidcli.js summary`를 실행한다.
 4. GitHub Release에서 영상을 복원한 뒤 `validate`를 실행한다. `media-manifest.json`과 동일한 파일이므로 기존 타임라인·캐시와 일치한다. YouTube 재다운로드 스크립트는 대체 방법으로만 사용한다.
 5. 사용할 Codex CLI에 본인 구독으로 로그인하고 Cutline 대화창에서 Codex를 선택한다. 실제 시연 전 스피커 음성을 직접 확인한다. 아래는 이번 PC의 검증 결과이며 새 PC의 정상 동작을 자동으로 보장하지 않는다.
 
