@@ -1,8 +1,8 @@
 # Cutline 실영상 데모 — chim_003
 
-침착맨 게임 풀버전 원본과 침착맨 플러스의 사람 편집본 **「침마에의 놀라운 지휘」**를 비교하는 로컬 프로젝트입니다. 비공개 해커톤 심사용이며 영상·대본을 업로드하거나 git remote를 만들지 않습니다.
+침착맨 게임 풀버전 원본과 침착맨 플러스의 사람 편집본 **「침마에의 놀라운 지휘」**를 비교하는 내부 심사용 프로젝트입니다. 팀원은 비공개 GitHub 릴리스에서 데모 영상과 재생 프록시를 복원할 수 있습니다.
 
-- `sources/original.mp4`: 제공된 원본의 독립 복사본. 7,293.063초(2:01:33.063), 426×240 영상입니다. 프록시 변환으로 원본 화질이 좋아지지는 않습니다.
+- `sources/original.mp4`: 비공개 릴리스에 보관한 1280×720 원본. 길이는 7,293.063초(2:01:33.063)입니다.
 - `reference/human_edit.mp4`: yt-dlp로 받은 720p 편집본, 약 23분 18초.
 - `timeline.json`: 원본 전체를 담은 클립 1개. 에이전트 편집 전 시작 상태입니다.
 - `transcripts/original.mp4.json`: 실제 한국어 ASR, Cutline의 `[{start,end,text}]` 형식. 침묵에는 대본이 없으며 게임 용어·고유명사는 오인식될 수 있습니다.
@@ -17,18 +17,19 @@
 
 ## 새 PC에서 복원하기 (Windows PowerShell)
 
-같은 상위 폴더에 `cutline`과 `cutline-internal`을 체크아웃하고, 앱 저장소 `cutline`에서 `npm ci`, `npm run build`를 실행합니다. 아래 명령은 **내부 저장소 `cutline-internal`의 루트**에서 실행합니다. 다운로드에는 PATH에 등록한 Node.js와 ffmpeg/ffprobe가 필요합니다.
+같은 상위 폴더에 `cutline`과 `cutline-internal`을 체크아웃하고, 앱 저장소 `cutline`에서 `npm ci`, `npm run build`를 실행합니다. GitHub CLI(`gh`)에 내부 저장소를 읽을 수 있는 계정으로 로그인하세요. 아래 명령은 **내부 저장소 `cutline-internal`의 루트**에서 실행합니다.
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install yt-dlp
-.\demo-chim\download.ps1 -DryRun
-.\demo-chim\download.ps1
+gh auth status
+powershell -NoProfile -ExecutionPolicy Bypass -File .\demo-chim\restore-github.ps1 -DryRun
+powershell -NoProfile -ExecutionPolicy Bypass -File .\demo-chim\restore-github.ps1
 Set-Location demo-chim
 node tools/vidcli.js summary
 ```
 
-`-DryRun`은 두 공개 영상 주소와 로컬 대상 경로, 기존 파일 유지 여부를 표시합니다. 실제 실행은 누락된 MP4만 복원합니다. 다른 Python 환경을 사용하려면 `download.ps1 -Python 'C:\tools\venv\Scripts\python.exe'`처럼 지정하세요. 현재 내려받을 수 있는 스트림에 따라 해상도와 크기는 달라질 수 있습니다.
+`restore-github.ps1`은 `media-manifest.json`에 적힌 비공개 릴리스에서 원본 MP4, 사람 편집본 MP4, WebM 재생 프록시를 받습니다. 세 파일은 합계 약 2.38GB입니다. `-DryRun`은 기존 파일의 크기와 SHA-256을 검사하고 누락된 파일을 표시합니다. 실제 실행은 같은 검사를 거친 뒤 누락된 파일만 내려받아 검증합니다. 기존 파일이 다르면 중단하므로 먼저 그 파일을 별도 위치에 보관한 뒤 다시 실행하세요.
+
+공개 원출처에서 MP4 두 개를 다시 받을 때는 별도 도구 `demo-chim/download.ps1`을 사용할 수 있습니다. 이 도구에는 내부 저장소 루트의 `.venv`에 설치한 yt-dlp와 PATH의 Node.js·ffmpeg가 필요합니다. YouTube에서 제공하는 스트림이 달라지면 파일 크기와 해시도 달라질 수 있습니다.
 
 CLI 래퍼는 현재 PowerShell의 `$env:CUTLINE_CLI_PATH`, 데모 폴더의 `.cutline/cli-path.txt`, 형제 저장소의 `cutline/out/cli.js` 순서로 실행 파일 경로를 선택합니다. 다른 위치에 앱을 빌드했다면 아래처럼 설정하세요. 여러 세션에서 같은 설정을 쓰려면 해당 절대 경로 한 줄을 `.cutline/cli-path.txt`에 UTF-8로 저장하세요. 이 파일은 Git에서 제외됩니다.
 
