@@ -1,6 +1,6 @@
 # 다른 컴퓨터에서 이어서 하기 (내부 · 팀 전용)
 
-최신 PC 검증 결과와 이어갈 항목은 **[CONTINUE_HERE.md](CONTINUE_HERE.md)**부터 확인하세요. 아래는 최초 설정 안내이며, 기존 PC의 경로나 미검증 상태가 포함되어 있습니다.
+침착맨 데모를 그대로 열려면 **[REPRODUCE.md](REPRODUCE.md)**의 명령부터 실행하세요. 최신 PC 검증 결과와 이어갈 항목은 [CONTINUE_HERE.md](CONTINUE_HERE.md)를 참고하세요. 아래는 상세 설정 안내입니다.
 
 ## 저장소
 - 앱 코드: https://github.com/Sweet-Butters/cutline (비공개)
@@ -13,7 +13,7 @@
 - GitHub CLI(`gh`): 비공개 Release의 영상·프록시를 자동 복원할 때 사용. `gh auth status`로 확인하고 미로그인이면 `gh auth login`으로 저장소 접근 가능한 계정에 로그인한다.
 
 ## 1. 앱 빌드
-검증한 설치본을 바로 쓰려면 [비공개 GitHub Release](https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-handoff-20261120)에서 `Cutline-win-x64.zip`과 해시를 받아 압축을 푼 뒤 `Cutline.exe`를 실행한다. 아래는 소스에서 직접 빌드하는 방법이다.
+검증한 설치본을 바로 쓰려면 [수정된 비공개 GitHub Release](https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-repro-20261120)에서 `Cutline-win-x64.zip`과 해시를 받아 압축을 푼 뒤 `Cutline.exe`를 실행한다. 이 수정본은 GitHub에서 복원한 프로젝트 프록시를 재사용한다. 아래는 소스에서 직접 빌드하는 방법이다.
 
 두 저장소를 담을 공통 상위 폴더에서 실행한다. 이미 clone했다면 해당 `git clone` 줄은 건너뛴다.
 

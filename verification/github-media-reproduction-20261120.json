@@ -1,0 +1,125 @@
+{
+    "recordedAt":  "2026-11-20T01:31:45.1012884Z",
+    "samePCFreshGitHubClone":  true,
+    "otherMachineTested":  false,
+    "mediaFromPrivateGitHubRelease":  true,
+    "appDownloadedFromPrivateGitHubRelease":  true,
+    "mediaRelease":  "https://github.com/Sweet-Butters/cutline-internal/releases/tag/demo-chim-media-20261120",
+    "appRelease":  "https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-repro-20261120",
+    "appZipSha256":  "ec9fbed0c3c455e9bc8df517040a8e72a04faecb0f911a41783bede6dcdb0ec1",
+    "restoredFiles":  [
+                          {
+                              "asset":  "original.mp4",
+                              "path":  "sources/original.mp4",
+                              "bytes":  1361925581,
+                              "sha256":  "b097b230d4e3d0788c4c798d7230034de566972d06c92a94bec070f99454f53b"
+                          },
+                          {
+                              "asset":  "human_edit.mp4",
+                              "path":  "reference/human_edit.mp4",
+                              "bytes":  294914142,
+                              "sha256":  "4f5d8c0c05976633965426b34c6cb4f38a31fcf22418e82f80bf09e7226ec63e"
+                          },
+                          {
+                              "asset":  "783e6b87ba7ea635753d25646e87130bbac0d4d2803f73c3e01e0390717a6b90.webm",
+                              "path":  ".cutline-cache/783e6b87ba7ea635753d25646e87130bbac0d4d2803f73c3e01e0390717a6b90.webm",
+                              "bytes":  727615545,
+                              "sha256":  "6254818f6905381bc11e55d05cb61ae1a5b9f3ef8647b1c128b17ef6bc542756"
+                          }
+                      ],
+    "normalLauncher":  {
+                           "commit":  "1d32d4773b839d010b69c5c8b156c73a2937e986",
+                           "normalLauncher":  true,
+                           "demoWindow":  true,
+                           "canplay":  true,
+                           "seconds":  7,
+                           "decodedDuration":  7293.065,
+                           "width":  640,
+                           "height":  360,
+                           "playbackErrors":  0,
+                           "externalProxyFilesCreated":  0,
+                           "restoredWebmBytes":  727615545
+                       },
+    "externalCacheOverridePlayback":  {
+                                          "runtime":  "1.100.3",
+                                          "passed":  true,
+                                          "checks":  [
+                                                         {
+                                                             "target":  0,
+                                                             "before":  {
+                                                                            "time":  0,
+                                                                            "frames":  4,
+                                                                            "paused":  true,
+                                                                            "seeking":  false,
+                                                                            "audioBytes":  1359,
+                                                                            "width":  640,
+                                                                            "index":  0
+                                                                        },
+                                                             "after":  {
+                                                                           "time":  0.775307,
+                                                                           "frames":  23,
+                                                                           "paused":  false,
+                                                                           "seeking":  false,
+                                                                           "audioBytes":  6213,
+                                                                           "width":  640,
+                                                                           "index":  0
+                                                                       }
+                                                         },
+                                                         {
+                                                             "target":  3646.531338,
+                                                             "before":  {
+                                                                            "time":  3646.531338,
+                                                                            "frames":  124,
+                                                                            "paused":  true,
+                                                                            "seeking":  false,
+                                                                            "audioBytes":  59845,
+                                                                            "width":  640,
+                                                                            "index":  0
+                                                                        },
+                                                             "after":  {
+                                                                           "time":  3647.302236,
+                                                                           "frames":  143,
+                                                                           "paused":  false,
+                                                                           "seeking":  false,
+                                                                           "audioBytes":  70114,
+                                                                           "width":  640,
+                                                                           "index":  0
+                                                                       }
+                                                         },
+                                                         {
+                                                             "target":  7285.062676,
+                                                             "before":  {
+                                                                            "time":  7285.062676,
+                                                                            "frames":  273,
+                                                                            "paused":  true,
+                                                                            "seeking":  false,
+                                                                            "audioBytes":  128560,
+                                                                            "width":  640,
+                                                                            "index":  0
+                                                                        },
+                                                             "after":  {
+                                                                           "time":  7285.831779,
+                                                                           "frames":  292,
+                                                                           "paused":  false,
+                                                                           "seeking":  false,
+                                                                           "audioBytes":  136235,
+                                                                           "width":  640,
+                                                                           "index":  0
+                                                                       }
+                                                         }
+                                                     ],
+                                          "clip":  {
+                                                       "in":  0,
+                                                       "out":  7293.062676
+                                                   },
+                                          "media":  {
+                                                        "format":  "webm",
+                                                        "duration":  7293.065,
+                                                        "width":  640,
+                                                        "height":  360
+                                                    },
+                                          "playbackErrors":  0
+                                      },
+    "continuousTwoHourPlaybackTested":  false,
+    "speakerAudibilityTested":  false
+}

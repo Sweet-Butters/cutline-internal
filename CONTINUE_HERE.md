@@ -1,5 +1,7 @@
 # 다른 PC에서 이어가기 — 2026-11-20 검증 기록
 
+**실제 데모 재현은 [REPRODUCE.md](REPRODUCE.md)의 명령부터 실행하세요. 영상·프록시까지 GitHub에서 복원하는 절차입니다.**
+
 이 문서는 현재 PC에서 직접 확인한 결과와 다른 PC에서 이어갈 절차를 기록한다. 최초 인수인계는 `HANDOFF.md`, 설치 순서는 `SETUP_OTHER_PC.md`를 참고한다. 두 저장소는 비공개로 유지한다. 영상·프록시는 Git 이력 대신 비공개 Release에서 전달하며 대본·내부 자료를 공개 게시하지 않는다.
 
 ## GitHub에서 이어받기 — 여기부터
@@ -8,7 +10,7 @@
 
 - [앱 코드](https://github.com/Sweet-Butters/cutline)
 - [내부 자료](https://github.com/Sweet-Butters/cutline-internal)
-- [검증한 Windows 설치본·VSIX·해시 다운로드](https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-handoff-20261120)
+- [수정된 Windows 설치본·VSIX·해시 다운로드](https://github.com/Sweet-Butters/cutline/releases/tag/v0.1.0-repro-20261120)
 - **[침착맨 원본·사람 편집본·검증한 재생 프록시](https://github.com/Sweet-Butters/cutline-internal/releases/tag/demo-chim-media-20261120)**
 
 새 PC에서는 접근 권한이 있는 GitHub 계정으로 로그인하고 두 저장소를 나란히 받는다.
@@ -63,10 +65,19 @@ CLI를 쓰지 않으려면 위 영상 Release에서 `media-manifest.json`과 세
 
 이 PC에서 요청한 도구 준비, 영상 복원, 앱 패키징·통합 테스트와 2시간 원본의 표본 재생 검증을 완료했다. 이 PC는 로그인된 Codex를 사용한다.
 
-## 패키지·영상 복원 검증
+## 최신 재현용 설치본
 
-- ZIP: `cutline/app/dist/Cutline-win-x64.zip`, 189,286,284 bytes. SHA-256: `ac407325a166836cbe36329ae891abefc3c879a534ed67012f48a1c7b6ec3fc3`.
-- VSIX: `cutline/dist/cutline.vsix`, 68,131 bytes. SHA-256: `4a3896d9d1d1106bdffbfd10f5326b8aec829ed5365c39b761b9bcae5a8b5fca`.
+- 새 앱 커밋 `1d32d47`은 다른 PC에서 올라온 스트리밍 수정 `45e3cdc`를 포함하고, 일반 실행기의 외부 캐시 설정에서도 프로젝트에 복원한 프록시를 재사용한다. 관련 회귀 검사를 포함한 테스트 30개와 VS Code 통합 테스트를 통과했다.
+- ZIP: `v0.1.0-repro-20261120` Release의 `Cutline-win-x64.zip`, 189,293,164 bytes, SHA-256 `ec9fbed0c3c455e9bc8df517040a8e72a04faecb0f911a41783bede6dcdb0ec1`.
+- VSIX: 같은 Release의 `cutline.vsix`, 72,910 bytes, SHA-256 `aa34af45dd9a70efe028200b411321bd611e6bc205647af8d8056ecb305cb219`.
+- 새 GitHub clone에 원본·사람 편집본·프록시를 실제 다운로드해 모두 크기·SHA-256 검증을 통과했다. 해당 복원 프로젝트를 수정 설치본의 일반 `Cutline.exe`로 열어 7초 안에 `canplay`를 확인했다. 외부 캐시에 새로 생성된 프록시 0개, 재생 오류 0건이다.
+- 앱 ZIP까지 GitHub에서 다시 내려받아 SHA-256을 확인하고 새로 푼 뒤, 복원한 원본의 시작·중간·끝에서 프레임·오디오 디코딩·재생 시간 증가를 확인했다. 외부 캐시 설정이 있어도 복원한 프로젝트 프록시를 사용했고 재생 오류는 0건이다. 숫자 진단 결과는 [verification/github-media-reproduction-20261120.json](verification/github-media-reproduction-20261120.json)에 보존한다.
+- 이 결과는 같은 PC의 깨끗한 clone과 새 앱 폴더에서 확인한 것이며, 다른 사람의 실제 PC를 원격으로 시험한 결과는 아니다.
+
+## 초기 패키지·영상 복원 검증 기록
+
+- 이전 `v0.1.0-handoff-20261120` ZIP: 189,286,284 bytes. SHA-256: `ac407325a166836cbe36329ae891abefc3c879a534ed67012f48a1c7b6ec3fc3`. 새 PC에서는 위의 `repro` 수정본을 사용한다.
+- 이전 handoff VSIX: 68,131 bytes. SHA-256: `4a3896d9d1d1106bdffbfd10f5326b8aec829ed5365c39b761b9bcae5a8b5fca`.
 - 두 파일 옆에 `.sha256` 파일이 있다. 이 파일들은 Git에 들어가지 않는다.
 - ZIP·VSIX와 두 `.sha256` 파일은 위 GitHub Release에 첨부되어 있다. 소스에서 직접 빌드할 수도 있다.
 - ZIP에서 독립적으로 압축 해제한 VSCodium 1.100.33714와 포함된 확장의 통합 테스트가 종료 코드 0으로 통과했다. WebM 직접 재생, 640px 영상, 프레임 진행·오디오 디코딩을 확인했다.
@@ -101,7 +112,7 @@ node tools/test-playback.js --project ../cutline-internal/demo-chim --vscode ./a
 4. GitHub Release에서 영상을 복원한 뒤 `validate`를 실행한다. `media-manifest.json`과 동일한 파일이므로 기존 타임라인·캐시와 일치한다. YouTube 재다운로드 스크립트는 대체 방법으로만 사용한다.
 5. 사용할 Codex CLI에 본인 구독으로 로그인하고 Cutline 대화창에서 Codex를 선택한다. 실제 시연 전 스피커 음성을 직접 확인한다. 아래는 이번 PC의 검증 결과이며 새 PC의 정상 동작을 자동으로 보장하지 않는다.
 
-## 최종 검증 기록
+## 초기 2시간 재생 검증 기록 (이전 설치본)
 
 **패키지 Cutline에서 실제 2:01:33 원본 재생 검사 통과.** ZIP을 별도 폴더에 풀어 얻은 VSCodium 1.100.3과 포함된 확장을 검사했다. 테스트 종료 코드 0, `passed: true`, WebM `canplay`, 영상 640×360, 재생 오류 0건이다.
 
